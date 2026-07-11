@@ -27,9 +27,6 @@ AI/ML Engineer and Machine Learning enthusiast passionate about building intelli
 
 
 
-<p align="center">
-<i><a href="https://github.com/tkarim45/Beginner-Data-Science-Projects">Beginner-Data-Science-Projects</a> · 2,400+ ⭐ · ranked Top 3 (Notebooks), Top 9 (Training), Top 10 (Educational) by growth acceleration</i>
-</p>
 
 <br/>
 
