@@ -6,7 +6,7 @@
 
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=NurMithu&label=Profile%20Views&color=2563EB&style=for-the-badge" alt="Profile Views"/>
-<img src="https://img.shields.io/badge/GitHub%20Stars-0%2B-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Stars"/>
+<img src="https://img.shields.io/badge/GitHub%20Stars-1%2B-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Stars"/>
 
 </p>
 
