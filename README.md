@@ -153,6 +153,6 @@ Input/output safety firewall: prompt-injection detection, PII redaction, toxicit
 
 <br/>
 
-<p align="center"><i>⭐️ From <a href="https://github.com/tkarim45">tkarim45</a>. Every result stated against a baseline.</i></p>
+<p align="center"><i>⭐️ From <a href="https://github.com/NurMithu">Nur-A-Alam</a>. Every result stated against a baseline.</i></p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,50:2563eb,100:38bdf8&height=100&section=footer"/>
