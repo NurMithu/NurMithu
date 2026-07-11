@@ -25,11 +25,7 @@ AI/ML Engineer and Machine Learning enthusiast passionate about building intelli
 - 📫 Reach me at **zarictg@gmail.com**
 - ⚡ Fun fact: I love building AI projects that solve real-world problems and contributing to open-source.
 
-<h2 align="center">🏆 Achievements & Recognition</h2>
 
-<p align="center">
-<a href="https://github.com/tkarim45/Beginner-Data-Science-Projects"><img src="https://img.shields.io/badge/2%2C400%2B%20Stars-Beginner%20Data%20Science%20Projects-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Beginner Data Science Projects"/></a>
-</p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/oosmetrics-Top%203%20·%20Notebooks-FFD700?style=flat-square&labelColor=1a1b27" alt="Top 3 Notebooks"/>
