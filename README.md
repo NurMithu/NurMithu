@@ -28,12 +28,6 @@ AI/ML Engineer and Machine Learning enthusiast passionate about building intelli
 
 
 <p align="center">
-<img src="https://img.shields.io/badge/oosmetrics-Top%203%20·%20Notebooks-FFD700?style=flat-square&labelColor=1a1b27" alt="Top 3 Notebooks"/>
-<img src="https://img.shields.io/badge/oosmetrics-Top%209%20·%20Training-C0C0C0?style=flat-square&labelColor=1a1b27" alt="Top 9 Training"/>
-<img src="https://img.shields.io/badge/oosmetrics-Top%2010%20·%20Educational-CD7F32?style=flat-square&labelColor=1a1b27" alt="Top 10 Educational"/>
-</p>
-
-<p align="center">
 <i><a href="https://github.com/tkarim45/Beginner-Data-Science-Projects">Beginner-Data-Science-Projects</a> · 2,400+ ⭐ · ranked Top 3 (Notebooks), Top 9 (Training), Top 10 (Educational) by growth acceleration</i>
 </p>
 
