@@ -14,15 +14,16 @@
 
 <h2>👋 About Me</h2>
 
-AI/ML Engineer and Data Scientist with **3+ years** building production machine-learning and generative-AI systems. I work on **LLM evaluation and safety**, **Retrieval-Augmented Generation**, and **AI agent systems**, and I own the full path from data pipeline to deployment: architecture, delivery, and operations.
+AI/ML Engineer and Machine Learning enthusiast passionate about building intelligent systems powered by Artificial Intelligence, Computer Vision, and Generative AI. I enjoy developing end-to-end AI solutions—from data collection and model training to deployment, monitoring, and real-world applications.
 
-- 🔭 Building **[Bryge.io](https://bryge.io)**, a multi-tenant industrial IoT analytics platform, as AI/ML Engineer at **Datality** (London, remote)
-- 🤖 I build LLM apps and I **measure** them. My portfolio has **12 evaluation and safety projects**.
-- 🌱 Working across **RAG, AI agents, MLOps, and causal/classical ML**
-- 🎓 **MSc Artificial Intelligence** @ LUMS · **BSc Data Science** @ FAST-NUCES
-- 💬 Ask me about **LLMs · RAG · LangChain · Evaluation harnesses · MLOps**
-- 📫 Reach me at **taimour.a.karim@gmail.com**
-- ⚡ Fun fact: I like Golf ⛳
+- 🚀 Currently building innovative AI-powered applications and open-source projects.
+- 🤖 Interested in **Large Language Models (LLMs)**, **Retrieval-Augmented Generation (RAG)**, **AI Agents**, and **Computer Vision**.
+- 🧠 Exploring **Deep Learning**, **MLOps**, **Model Evaluation**, and scalable AI systems.
+- 💻 Experienced with **Python**, **PyTorch**, **TensorFlow**, **OpenCV**, **FastAPI**, and modern AI frameworks.
+- 📚 Continuously learning and experimenting with the latest advancements in Artificial Intelligence and Machine Learning.
+- 💬 Ask me about **Python**, **Machine Learning**, **Deep Learning**, **Computer Vision**, **LLMs**, **RAG**, and **AI Development**.
+- 📫 Reach me at **your-email@example.com**
+- ⚡ Fun fact: I love building AI projects that solve real-world problems and contributing to open-source.
 
 <h2 align="center">🏆 Achievements & Recognition</h2>
 
