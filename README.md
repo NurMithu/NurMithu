@@ -30,54 +30,7 @@ AI/ML Engineer and Machine Learning enthusiast passionate about building intelli
 
 <br/>
 
-<h2 align="center">🚀 Featured Projects</h2>
 
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-**🧪 [clinical-llm-bias-audit](https://github.com/tkarim45/clinical-llm-bias-audit)**<br/>
-Reproducible fairness-audit framework for clinical LLMs. Introduces the **Geographic Disparity Index (GDI)**; from-scratch stats (Wilcoxon + BCa bootstrap).<br/>
-`Multi-provider LLM` · `FastAPI` · `Streamlit`
-
-</td>
-<td width="50%" valign="top">
-
-**📄 [sec-rag-analyst](https://github.com/tkarim45/sec-rag-analyst)**<br/>
-Production RAG over SEC 10-K filings: hybrid BM25+dense retrieval, RRF fusion, cross-encoder rerank, inline citations, labeled eval.<br/>
-`Claude` · `FAISS` · `BGE` · `Docker`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**🏥 [CureWise-AI-Medical-Healthcare](https://github.com/tkarim45/CureWise-AI-Medical-Healthcare)**<br/>
-Deployed healthcare platform: conversational AI, medical-report parsing, RAG, image-based disease detection, realtime DB agents.<br/>
-`OpenAI` · `Groq/Llama` · `Pinecone` · `React`
-
-</td>
-<td width="50%" valign="top">
-
-**⚙️ [credit-default-mlops](https://github.com/tkarim45/credit-default-mlops)**<br/>
-End-to-end MLOps: versioned data → tracked model → CI quality gate → drift detection → instrumented serving.<br/>
-`DVC` · `MLflow` · `Evidently` · `Prometheus`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**🧩 [rag-architectures](https://github.com/tkarim45/rag-architectures)**<br/>
-**13 RAG architectures** benchmarked on one corpus, from naive → hybrid → GraphRAG → RAPTOR → agentic, scored on recall + LLM-judged accuracy.<br/>
-`sentence-transformers` · `FAISS` · `Bedrock`
-
-</td>
-<td width="50%" valign="top">
-
-**🛡️ [llm-guardrails](https://github.com/tkarim45/llm-guardrails)**<br/>
-Input/output safety firewall: prompt-injection detection, PII redaction, toxicity filters. Macro-F1 **1.0**, zero benign false positives.<br/>
-`FastAPI` · `Claude judge` · `regex heuristics`
 
 </td>
 </tr>
