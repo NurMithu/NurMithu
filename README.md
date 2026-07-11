@@ -51,6 +51,12 @@ AI/ML Engineer and Machine Learning enthusiast passionate about building intelli
 
 <br/>
 
+<div align="center">
+  <img src="https://github.com/NurMithu/NurMithu/blob/output/github-snake-dark.svg" alt="snake gif">
+</div>
+
+<br/>
+
 <h2 align="center">🤝 Connect With Me</h2>
 
 <p align="center">
