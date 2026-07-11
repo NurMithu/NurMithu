@@ -47,13 +47,7 @@ AI/ML Engineer and Machine Learning enthusiast passionate about building intelli
 <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
 </p>
 
-<br/>
 
-<h2 align="center">📊 GitHub Analytics</h2>
-
-<p align="center">
-<img width="99%" src="https://raw.githubusercontent.com/tkarim45/Tkarim45/main/github-metrics.svg" alt="GitHub Metrics — stats, top languages, coding habits, contribution calendar"/>
-</p>
 
 <br/>
 
