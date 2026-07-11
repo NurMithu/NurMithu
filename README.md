@@ -22,7 +22,7 @@ AI/ML Engineer and Machine Learning enthusiast passionate about building intelli
 - 💻 Experienced with **Python**, **PyTorch**, **TensorFlow**, **OpenCV**, **FastAPI**, and modern AI frameworks.
 - 📚 Continuously learning and experimenting with the latest advancements in Artificial Intelligence and Machine Learning.
 - 💬 Ask me about **Python**, **Machine Learning**, **Deep Learning**, **Computer Vision**, **LLMs**, **RAG**, and **AI Development**.
-- 📫 Reach me at **your-email@example.com**
+- 📫 Reach me at **zarictg@gmail.com**
 - ⚡ Fun fact: I love building AI projects that solve real-world problems and contributing to open-source.
 
 <h2 align="center">🏆 Achievements & Recognition</h2>
