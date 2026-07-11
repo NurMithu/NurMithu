@@ -25,21 +25,6 @@ AI/ML Engineer and Machine Learning enthusiast passionate about building intelli
 - 📫 Reach me at **zarictg@gmail.com**
 - ⚡ Fun fact: I love building AI projects that solve real-world problems and contributing to open-source.
 
-
-
-
-<br/>
-
-
-
-</td>
-</tr>
-</table>
-
-<p align="center">
-<i>+ a 12-project LLM evaluation & safety cluster: red-teaming · hallucination benchmarks · LLM-as-judge · prompt-regression CI · agent-eval-harness · MCP servers</i>
-</p>
-
 <br/>
 
 <h2 align="center">🛠️ Languages & Tools</h2>
