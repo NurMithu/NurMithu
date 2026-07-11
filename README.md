@@ -7,7 +7,7 @@
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=tkarim45&label=Profile%20Views&color=2563EB&style=for-the-badge" alt="Profile Views"/>
 <img src="https://img.shields.io/badge/GitHub%20Stars-2.5k%2B-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Stars"/>
-<img src="https://img.shields.io/badge/🏆%20Genesis%20Hackathon%20Dubai-2nd%20Place-FFD700?style=for-the-badge&logoColor=black" alt="Hackathon"/>
+
 </p>
 
 <br/>
