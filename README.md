@@ -28,17 +28,9 @@ AI/ML Engineer and Machine Learning enthusiast passionate about building intelli
 
 
 
-<br/>
 
 
 
-</td>
-</tr>
-</table>
-
-<p align="center">
-<i>+ a 12-project LLM evaluation & safety cluster: red-teaming · hallucination benchmarks · LLM-as-judge · prompt-regression CI · agent-eval-harness · MCP servers</i>
-</p>
 
 <br/>
 
