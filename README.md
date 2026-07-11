@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,50:2563eb,100:38bdf8&height=200&section=header&text=Taimour%20Abdul%20Karim&fontSize=44&fontColor=ffffff&fontAlignY=32&desc=AI%2FML%20Engineer%20%C2%B7%20Data%20Scientist&descAlignY=52&descSize=20&animation=twinkling"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,50:2563eb,100:38bdf8&height=200&section=header&text=Nur%20A%20Alam&fontSize=44&fontColor=ffffff&fontAlignY=32&desc=AI%2FML%20Engineer%20%C2%B7%20Data%20Scientist&descAlignY=52&descSize=20&animation=twinkling"/>
 
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=650&lines=Building+LLM+Systems+%26+RAG+Pipelines;LLM+Evaluation%2C+Safety+%26+AI+Agents;MLOps+from+Data+Pipelines+to+Deployment;MSc+AI+%40+LUMS+%7C+3%2B+yrs+Production+ML" alt="Typing SVG" /></a>
