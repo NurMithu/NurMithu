@@ -6,7 +6,7 @@
 
 Postgraduate Diploma in Data Science candidate, building production-style analytics solutions for retail, financial services, and customer analytics use cases. Available for remote and freelance engagements.
 
-[Email](mailto:your-email@example.com) · [LinkedIn](https://linkedin.com/in/your-profile) · [Portfolio](#)
+[Email](mailto:zarictg@gamil.com) · [LinkedIn](#) · [Portfolio](#)
 
 </div>
 
