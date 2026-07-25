@@ -86,5 +86,4 @@ Each project in this profile is built to a consistent standard:
 
 Open to remote data science, analytics, and machine learning engagements.
 
-**Email:** your-email@example.com
-**LinkedIn:** [your-profile](https://linkedin.com/in/your-profile)
+**Email:** zarictg@gmail.com
