@@ -6,7 +6,7 @@
 
 Postgraduate Diploma in Data Science candidate, building production-style analytics solutions for retail, financial services, and customer analytics use cases. Available for remote and freelance engagements.
 
-[Email](mailto:zarictg@gamil.com) · [LinkedIn](#) · [Portfolio](#)
+
 
 </div>
 
@@ -82,8 +82,4 @@ Each project in this profile is built to a consistent standard:
 
 ---
 
-## Contact
-
-Open to remote data science, analytics, and machine learning engagements.
-
-**Email:** zarictg@gmail.com
+\
