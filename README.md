@@ -1,21 +1,21 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:080808,50:171717,100:303030&height=260&section=header&text=Nur-A-Alam&fontSize=62&fontColor=fafafa&fontAlignY=38&desc=Data%20Scientist%20%E2%80%A2%20Machine%20Learning%20%E2%80%A2%20Business%20Analytics&descAlignY=60&descSize=20&descColor=d0d0d0&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050d2e,50:0a1f5c,100:2a52be&height=230&section=header&text=Nur-A-Alam&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Data%20Scientist%20%C2%B7%20Machine%20Learning%20%C2%B7%20Business%20Analytics&descAlignY=58&descSize=20&descColor=f5c451&animation=twinkling"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=15&pause=1200&color=A8A8A8&center=true&vCenter=true&width=760&height=30&lines=DATA+%E2%80%A2+INTELLIGENCE+%E2%80%A2+STRATEGY;I+turn+messy+data+into+business+decisions;Churn+%7C+Fraud+%7C+Forecasting+%7C+NLP;Open+to+remote+ML+%26+data+science+work" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F5C451&center=true&vCenter=true&width=760&lines=I+turn+messy+data+into+business+decisions;Churn+%7C+Fraud+%7C+Forecasting+%7C+NLP;Every+model+is+benchmarked+against+a+baseline;Open+to+remote+ML+%26+data+science+work" alt="Typing SVG"/>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NurMithu&label=Profile%20Views&color=303030&style=for-the-badge"/>
-  <img src="https://img.shields.io/github/followers/NurMithu?style=for-the-badge&color=303030&labelColor=111111"/>
-  <img src="https://img.shields.io/badge/Open%20to-Remote%20Work-D7D7D7?style=for-the-badge&labelColor=111111"/>
+  <img src="https://komarev.com/ghpvc/?username=NurMithu&label=Profile%20Views&color=0a1f5c&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/followers/NurMithu?style=for-the-badge&color=2A52BE"/>
+  <img src="https://img.shields.io/badge/Open%20to-Remote%20Work-F5C451?style=for-the-badge&labelColor=0a1f5c"/>
 </p>
 
 <p align="center">
-  <a href=""><img src="https://img.shields.io/badge/LinkedIn-Connect-303030?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/NurMithu"><img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/nur-a-alam-b8935a215/"><img src="https://img.shields.io/badge/LinkedIn-Connect-2A52BE?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/NurMithu"><img src="https://img.shields.io/badge/GitHub-0a1f5c?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:080808,50:8a8a8a,100:080808&height=2"/>
+---
 
 ## 👋 Hi, I'm Nur
 
@@ -24,15 +24,33 @@ I'm a **Data Scientist** (Postgraduate Diploma in Data Science candidate) who bu
 > **My rule:** a high score means nothing without a baseline, a business interpretation, and honest limitations.
 
 <table align="center">
-<tr><td><b>🎯 Role</b></td><td>Data Scientist · ML · Business Analytics</td></tr>
-<tr><td><b>🛠️ Stack</b></td><td>Python · SQL · pandas · scikit-learn · XGBoost · statsmodels · PyTorch</td></tr>
-<tr><td><b>🚀 Ships</b></td><td>Streamlit apps · Dockerized models · MLflow-tracked experiments</td></tr>
-<tr><td><b>💡 Principle</b></td><td>Baseline first. Business impact always.</td></tr>
-<tr><td><b>🔭 Exploring</b></td><td>MLOps · RAG · LLM apps · AI agents</td></tr>
-<tr><td><b>🌍 Available</b></td><td>Remote data science / ML projects</td></tr>
+<tr>
+<td><b>🎯 Role</b></td>
+<td>Data Scientist · ML · Business Analytics</td>
+</tr>
+<tr>
+<td><b>🛠️ Stack</b></td>
+<td>Python · SQL · pandas · scikit-learn · XGBoost · statsmodels · PyTorch</td>
+</tr>
+<tr>
+<td><b>🚀 Ships</b></td>
+<td>Streamlit apps · Dockerized models · MLflow-tracked experiments</td>
+</tr>
+<tr>
+<td><b>💡 Principle</b></td>
+<td>Baseline first. Business impact always.</td>
+</tr>
+<tr>
+<td><b>🔭 Exploring</b></td>
+<td>MLOps · RAG · LLM apps · AI agents</td>
+</tr>
+<tr>
+<td><b>🌍 Available</b></td>
+<td>Remote data science / ML projects</td>
+</tr>
 </table>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:080808,50:8a8a8a,100:080808&height=2"/>
+---
 
 ## 📊 Results at a Glance
 
@@ -43,7 +61,7 @@ I'm a **Data Scientist** (Postgraduate Diploma in Data Science candidate) who bu
 | 🛡️ **Fraud Detection** | **85% precision @ 85% recall** | Fraud is <1% of data, so accuracy is meaningless |
 | 💬 **Sentiment Analysis** | **Macro F1 0.714** (**~39% over** 0.513 baseline) | Finds *why* customers are unhappy |
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:080808,50:8a8a8a,100:080808&height=2"/>
+---
 
 ## 🚀 Featured Projects
 
@@ -77,7 +95,7 @@ Rule-based baseline vs TF-IDF + trained classifiers, plus complaint root-cause a
 
 📂 [Repository](https://github.com/NurMithu/sentiment-analysis) · 🚀 [Live Demo](https://sentiment-analysis-ytcvdn7yhftrexed7yoczj.streamlit.app/)
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:080808,50:8a8a8a,100:080808&height=2"/>
+---
 
 ## 🗺️ Portfolio Roadmap
 
@@ -87,7 +105,7 @@ Rule-based baseline vs TF-IDF + trained classifiers, plus complaint root-cause a
 | 🔨 | Recommendation System · Loan Default Prediction · Demand Forecasting |
 | 🔜 | RAG Application · MLOps Pipeline · Real-Time Dashboard |
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:080808,50:8a8a8a,100:080808&height=2"/>
+---
 
 ## 🧠 Tech Stack
 
@@ -105,31 +123,31 @@ Rule-based baseline vs TF-IDF + trained classifiers, plus complaint root-cause a
 4. **Business language** — results end as recommendations, not just numbers.
 5. **Honest limitations** — assumptions, bias, and failure modes documented.
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:080808,50:8a8a8a,100:080808&height=2"/>
+---
 
 ## 📈 GitHub Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=NurMithu&show_icons=true&bg_color=111111&title_color=f1f1f1&icon_color=bdbdbd&text_color=d0d0d0&border_color=444444&rank_icon=github"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NurMithu&layout=compact&bg_color=111111&title_color=f1f1f1&text_color=d0d0d0&border_color=444444"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=NurMithu&show_icons=true&bg_color=0a1530&title_color=f5c451&icon_color=7aa2ff&text_color=dbe6ff&border_color=2a52be&rank_icon=github"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NurMithu&layout=compact&bg_color=0a1530&title_color=f5c451&text_color=dbe6ff&border_color=2a52be"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NurMithu&bg_color=111111&color=d0d0d0&line=bdbdbd&point=ffffff&area=true&area_color=444444&hide_border=true" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NurMithu&bg_color=0a1530&color=7aa2ff&line=2a52be&point=f5c451&area=true&area_color=2a52be&hide_border=true" width="100%"/>
 </p>
 
 <div align="center">
   <img src="https://github.com/NurMithu/NurMithu/blob/output/github-snake-dark.svg" alt="snake animation"/>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:080808,50:8a8a8a,100:080808&height=2"/>
+---
 
 ## 🤝 Let's Work Together
 
 I'm open to **remote data science, analytics, and ML projects**.
 
 <p align="center">
-  <a href=""><img src="https://img.shields.io/badge/Message%20me%20on%20LinkedIn-303030?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/nur-a-alam-b8935a215/"><img src="https://img.shields.io/badge/Message%20me%20on%20LinkedIn-2A52BE?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:080808,50:171717,100:303030&height=110&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050d2e,50:0a1f5c,100:2a52be&height=110&section=footer"/>
