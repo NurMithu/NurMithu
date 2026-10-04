@@ -1,17 +1,18 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,50:2563eb,100:38bdf8&height=220&section=header&text=Nur-A-Alam&fontSize=50&fontColor=ffffff&fontAlignY=36&desc=Data%20Scientist%20%C2%B7%20Machine%20Learning%20%C2%B7%20Business%20Analytics&descAlignY=58&descSize=20&animation=twinkling"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050d2e,50:0a1f5c,100:2a52be&height=230&section=header&text=Nur-A-Alam&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Data%20Scientist%20%C2%B7%20Machine%20Learning%20%C2%B7%20Business%20Analytics&descAlignY=58&descSize=20&descColor=f5c451&animation=twinkling"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=760&lines=I+turn+messy+data+into+business+decisions;Churn+%7C+Fraud+%7C+Forecasting+%7C+NLP;Every+model+is+benchmarked+against+a+baseline;Open+to+remote+ML+%26+data+science+work" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F5C451&center=true&vCenter=true&width=760&lines=I+turn+messy+data+into+business+decisions;Churn+%7C+Fraud+%7C+Forecasting+%7C+NLP;Every+model+is+benchmarked+against+a+baseline;Open+to+remote+ML+%26+data+science+work" alt="Typing SVG"/>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NurMithu&label=Profile%20Views&color=2563EB&style=for-the-badge"/>
-  <img src="https://img.shields.io/github/followers/NurMithu?style=for-the-badge&color=2563EB"/>
-  <img src="https://img.shields.io/badge/Open%20to-Remote%20Work-38BDF8?style=for-the-badge"/>
+  <img src="https://komarev.com/ghpvc/?username=NurMithu&label=Profile%20Views&color=0a1f5c&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/followers/NurMithu?style=for-the-badge&color=2A52BE"/>
+  <img src="https://img.shields.io/badge/Open%20to-Remote%20Work-F5C451?style=for-the-badge&labelColor=0a1f5c"/>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nur-a-alam-b8935a215/"><img src="https://img.shields.io/badge/LinkedIn-Connect-1E77B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/nur-a-alam-b8935a215/"><img src="https://img.shields.io/badge/LinkedIn-Connect-2A52BE?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/NurMithu"><img src="https://img.shields.io/badge/GitHub-0a1f5c?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
 ---
@@ -107,11 +108,15 @@ Rule-based baseline vs TF-IDF + trained classifiers, plus complaint root-cause a
 
 ---
 
-## 📈 GitHub Stats
+## 📈 GitHub Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=NurMithu&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NurMithu&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=NurMithu&show_icons=true&bg_color=0a1530&title_color=f5c451&icon_color=7aa2ff&text_color=dbe6ff&border_color=2a52be&rank_icon=github"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NurMithu&layout=compact&bg_color=0a1530&title_color=f5c451&text_color=dbe6ff&border_color=2a52be"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NurMithu&bg_color=0a1530&color=7aa2ff&line=2a52be&point=f5c451&area=true&area_color=2a52be&hide_border=true" width="100%"/>
 </p>
 
 <div align="center">
@@ -125,7 +130,7 @@ Rule-based baseline vs TF-IDF + trained classifiers, plus complaint root-cause a
 I'm open to **remote data science, analytics, and ML projects**.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nur-a-alam-b8935a215/"><img src="https://img.shields.io/badge/Message%20me%20on%20LinkedIn-1E77B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/nur-a-alam-b8935a215/"><img src="https://img.shields.io/badge/Message%20me%20on%20LinkedIn-2A52BE?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,50:2563eb,100:38bdf8&height=100&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050d2e,50:0a1f5c,100:2a52be&height=110&section=footer"/>
