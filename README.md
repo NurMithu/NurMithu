@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nur-a-alam-b8935a215/"><img src="https://img.shields.io/badge/LinkedIn-Connect-2A52BE?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://><img src="https://img.shields.io/badge/LinkedIn-Connect-2A52BE?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://github.com/NurMithu"><img src="https://img.shields.io/badge/GitHub-0a1f5c?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
@@ -129,7 +129,7 @@ Rule-based baseline vs TF-IDF + trained classifiers, plus complaint root-cause a
 I'm open to **remote data science, analytics, and ML projects**.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nur-a-alam-b8935a215/"><img src="https://img.shields.io/badge/Message%20me%20on%20LinkedIn-2A52BE?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href=""><img src="https://img.shields.io/badge/Message%20me%20on%20LinkedIn-2A52BE?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020718,50:071a52,100:2a52be&height=110&section=footer"/>
