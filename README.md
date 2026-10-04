@@ -19,7 +19,7 @@
 
 ## 👋 Hi, I'm Nur
 
-I'm a **Data Scientist** (Postgraduate Diploma in Data Science candidate) who builds **end-to-end, production-style ML projects** — from raw data and statistical analysis to modeling, evaluation, and deployed apps.
+I'm a **Data Scientist** who builds **end-to-end, production-style ML projects** — from raw data and statistical analysis to modeling, evaluation, and deployed apps.
 
 > **My rule:** a high score means nothing without a baseline, a business interpretation, and honest limitations.
 
