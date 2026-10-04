@@ -1,8 +1,762 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020718,50:071a52,100:2a52be&height=240&section=header&text=Nur-A-Alam&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Data%20Scientist%20%C2%B7%20Machine%20Learning%20%C2%B7%20Business%20Analytics&descAlignY=58&descSize=20&descColor=f5c451&animation=fadeIn"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F5C451&center=true&vCenter=true&width=760&lines=I+turn+messy+data+into+business+decisions;Churn+%7C+Fraud+%7C+Forecasting+%7C+NLP;Every+model+is+benchmarked+against+a+baseline;Open+to+remote+ML+%26+data+science+work" alt="Typing SVG"/>
-</p>
+<title>Nur-A-Alam | Executive Profile Banner</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    background: #111;
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
+}
+
+/* =========================================================
+   MAIN BANNER
+   LinkedIn-style ratio: 1584 × 396
+========================================================= */
+
+.banner {
+    width: 1584px;
+    height: 396px;
+
+    position: relative;
+    overflow: hidden;
+
+    color: #f5f5f5;
+
+    background:
+        radial-gradient(
+            circle at 12% 20%,
+            rgba(255,255,255,.08),
+            transparent 25%
+        ),
+        radial-gradient(
+            circle at 88% 80%,
+            rgba(255,255,255,.05),
+            transparent 28%
+        ),
+        linear-gradient(
+            115deg,
+            #080808 0%,
+            #171717 46%,
+            #303030 100%
+        );
+}
+
+
+/* =========================================================
+   SUBTLE GRID
+========================================================= */
+
+.grid {
+    position: absolute;
+    inset: 0;
+
+    opacity: .16;
+
+    background-image:
+        linear-gradient(
+            rgba(255,255,255,.09) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(255,255,255,.09) 1px,
+            transparent 1px
+        );
+
+    background-size: 48px 48px;
+
+    mask-image:
+        linear-gradient(
+            to right,
+            transparent,
+            black 18%,
+            black 82%,
+            transparent
+        );
+}
+
+
+/* =========================================================
+   ANIMATED LIGHT SWEEP
+========================================================= */
+
+.light {
+    position: absolute;
+
+    width: 480px;
+    height: 900px;
+
+    top: -250px;
+    left: -600px;
+
+    transform: rotate(18deg);
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255,255,255,.035),
+            rgba(255,255,255,.13),
+            rgba(255,255,255,.035),
+            transparent
+        );
+
+    filter: blur(10px);
+
+    animation:
+        sweep 7s ease-in-out infinite;
+}
+
+@keyframes sweep {
+
+    0%,
+    20% {
+        left: -650px;
+        opacity: 0;
+    }
+
+    35% {
+        opacity: 1;
+    }
+
+    70% {
+        left: 1700px;
+        opacity: .75;
+    }
+
+    100% {
+        left: 1800px;
+        opacity: 0;
+    }
+}
+
+
+/* =========================================================
+   BOTTOM ARCHITECTURAL WAVE
+========================================================= */
+
+.wave {
+    position: absolute;
+
+    left: -5%;
+    bottom: -88px;
+
+    width: 110%;
+    height: 165px;
+
+    border-top:
+        1px solid rgba(255,255,255,.22);
+
+    border-radius:
+        50% 50% 0 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255,255,255,.08),
+            rgba(255,255,255,.015)
+        );
+
+    transform: rotate(-1.5deg);
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.content {
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    z-index: 5;
+}
+
+.inner {
+    transform: translateY(-5px);
+}
+
+
+/* =========================================================
+   SMALL EXECUTIVE LABEL
+========================================================= */
+
+.eyebrow {
+
+    letter-spacing: 5px;
+
+    text-transform: uppercase;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    color: #a8a8a8;
+
+    margin-bottom: 12px;
+}
+
+
+/* =========================================================
+   NAME
+========================================================= */
+
+h1 {
+
+    margin: 0;
+
+    font-size: 66px;
+
+    line-height: .98;
+
+    letter-spacing: -2.5px;
+
+    font-weight: 750;
+
+    color: #fafafa;
+
+    text-shadow:
+        0 4px 28px rgba(0,0,0,.45);
+}
+
+h1 span {
+    color: #9d9d9d;
+}
+
+
+/* =========================================================
+   ANIMATED DIVIDER
+========================================================= */
+
+.rule {
+
+    width: 210px;
+
+    height: 2px;
+
+    margin:
+        17px auto 15px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #d7d7d7,
+            #666,
+            transparent
+        );
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.rule::after {
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: -35%;
+
+    width: 35%;
+    height: 100%;
+
+    background: #fff;
+
+    filter: blur(1px);
+
+    animation:
+        ruleMove 3.5s linear infinite;
+}
+
+@keyframes ruleMove {
+
+    to {
+        left: 135%;
+    }
+}
+
+
+/* =========================================================
+   PROFESSIONAL TAGLINE
+========================================================= */
+
+.tagline {
+
+    font-size: 20px;
+
+    font-weight: 500;
+
+    letter-spacing: 1.8px;
+
+    color: #d0d0d0;
+}
+
+.tagline b {
+
+    color: #f1f1f1;
+
+    font-weight: 650;
+}
+
+.dot {
+
+    margin: 0 13px;
+
+    color: #777;
+}
+
+
+/* =========================================================
+   DATA VISUALIZATION MOTIFS
+========================================================= */
+
+.motif {
+
+    position: absolute;
+
+    z-index: 3;
+
+    color:
+        rgba(255,255,255,.35);
+}
+
+
+/* LEFT GRAPH */
+
+.left {
+
+    left: 95px;
+
+    top: 105px;
+}
+
+
+/* RIGHT GRAPH */
+
+.right {
+
+    right: 95px;
+
+    top: 103px;
+}
+
+
+/* =========================================================
+   BAR CHART
+========================================================= */
+
+.chart {
+
+    width: 190px;
+
+    height: 110px;
+
+    border-left:
+        1px solid rgba(255,255,255,.28);
+
+    border-bottom:
+        1px solid rgba(255,255,255,.28);
+
+    position: relative;
+}
+
+
+/* BAR */
+
+.bar {
+
+    position: absolute;
+
+    bottom: 0;
+
+    width: 18px;
+
+    background:
+        linear-gradient(
+            #bdbdbd,
+            #444
+        );
+
+    border:
+        1px solid rgba(255,255,255,.18);
+}
+
+
+/* Individual bars */
+
+.b1 {
+
+    left: 25px;
+
+    height: 32px;
+}
+
+.b2 {
+
+    left: 58px;
+
+    height: 54px;
+}
+
+.b3 {
+
+    left: 91px;
+
+    height: 76px;
+}
+
+.b4 {
+
+    left: 124px;
+
+    height: 92px;
+}
+
+.b5 {
+
+    left: 157px;
+
+    height: 66px;
+}
+
+
+/* Trend line */
+
+.line {
+
+    position: absolute;
+
+    left: 20px;
+
+    bottom: 18px;
+
+    width: 155px;
+
+    height: 65px;
+
+    border-top:
+        2px solid rgba(245,245,245,.58);
+
+    transform:
+        skewY(-20deg)
+        rotate(-2deg);
+
+    opacity: .65;
+}
+
+
+/* =========================================================
+   DATA RING
+========================================================= */
+
+.data-ring {
+
+    width: 105px;
+
+    height: 105px;
+
+    border:
+        1px solid rgba(255,255,255,.28);
+
+    border-radius: 50%;
+
+    position: relative;
+}
+
+
+.data-ring::before,
+.data-ring::after {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 15px;
+
+    border:
+        1px solid rgba(255,255,255,.18);
+
+    border-radius: 50%;
+}
+
+
+.data-ring::after {
+
+    inset: 31px;
+
+    border-color:
+        rgba(255,255,255,.32);
+}
+
+
+/* Ring diagonal */
+
+.ring-line {
+
+    position: absolute;
+
+    width: 140px;
+
+    height: 1px;
+
+    top: 51px;
+
+    left: -18px;
+
+    background:
+        rgba(255,255,255,.25);
+
+    transform:
+        rotate(35deg);
+}
+
+
+/* =========================================================
+   FOOTER LABEL
+========================================================= */
+
+.signature {
+
+    position: absolute;
+
+    left: 48px;
+
+    bottom: 30px;
+
+    font-size: 11px;
+
+    letter-spacing: 2px;
+
+    color: #777;
+
+    text-transform: uppercase;
+}
+
+
+/* =========================================================
+   STATUS INDICATOR
+========================================================= */
+
+.status {
+
+    position: absolute;
+
+    right: 48px;
+
+    bottom: 30px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    font-size: 11px;
+
+    letter-spacing: 1.5px;
+
+    color: #858585;
+
+    text-transform: uppercase;
+}
+
+
+.status i {
+
+    width: 7px;
+
+    height: 7px;
+
+    border-radius: 50%;
+
+    background: #cfcfcf;
+
+    box-shadow:
+        0 0 12px rgba(255,255,255,.55);
+
+    animation:
+        pulse 2s ease-in-out infinite;
+}
+
+
+@keyframes pulse {
+
+    50% {
+        opacity: .35;
+        transform: scale(.75);
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .banner {
+        transform-origin: top left;
+    }
+
+    .motif {
+        opacity: .35;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .tagline {
+        font-size: 16px;
+    }
+}
+</style>
+</head>
+
+
+<body>
+
+<div class="banner">
+
+    <!-- Background grid -->
+    <div class="grid"></div>
+
+
+    <!-- Animated light -->
+    <div class="light"></div>
+
+
+    <!-- Bottom wave -->
+    <div class="wave"></div>
+
+
+    <!-- =====================================================
+         LEFT DATA VISUAL
+    ====================================================== -->
+
+    <div class="motif left">
+
+        <div class="chart">
+
+            <div class="bar b1"></div>
+
+            <div class="bar b2"></div>
+
+            <div class="bar b3"></div>
+
+            <div class="bar b4"></div>
+
+            <div class="bar b5"></div>
+
+            <div class="line"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         RIGHT DATA VISUAL
+    ====================================================== -->
+
+    <div class="motif right">
+
+        <div class="data-ring">
+
+            <div class="ring-line"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <main class="content">
+
+        <div class="inner">
+
+            <div class="eyebrow">
+
+                Data • Intelligence • Strategy
+
+            </div>
+
+
+            <h1>
+
+                Nur-A-<span>Alam</span>
+
+            </h1>
+
+
+            <div class="rule"></div>
+
+
+            <div class="tagline">
+
+                <b>Data Scientist</b>
+
+                <span class="dot">•</span>
+
+                <b>Machine Learning</b>
+
+                <span class="dot">•</span>
+
+                <b>Business Analytics</b>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- Bottom-left label -->
+
+    <div class="signature">
+
+        NUR A ALAM / PROFESSIONAL PROFILE
+
+    </div>
+
+
+    <!-- Bottom-right status -->
+
+    <div class="status">
+
+        <i></i>
+
+        Data-driven professional
+
+    </div>
+
+</div>
+
+</body>
+</html>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=NurMithu&label=Profile%20Views&color=0a1f5c&style=for-the-badge"/>
