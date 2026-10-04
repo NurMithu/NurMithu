@@ -1,6 +1,4 @@
-Absolutely. Below is **one complete HTML block**. You can copy everything from `<!DOCTYPE html>` to `</html>` and paste it directly into a new `.html` file.
 
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
