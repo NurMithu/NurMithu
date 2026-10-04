@@ -1,40 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-label="Nur A Alam, Data Scientist. Animated neural network with a falling training loss curve.">
-<rect width="900" height="340" rx="12" fill="#0B0F15"/>
-<g font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-<text x="44" y="150" font-size="52" font-weight="700" fill="#F1F5F9">Nur A Alam</text>
-<text x="44" y="190" font-size="21" font-weight="600" fill="#5BC8E8">Data Scientist</text>
-<text x="44" y="224" font-size="15" fill="#94A3B8">Machine learning · Business analytics</text>
-<text x="44" y="248" font-size="15" fill="#94A3B8">Data visualization</text></g>
-<g stroke="#94A3B8" stroke-opacity=".13" fill="none">
-<path d="M430 40L560 40M430 40L560 75M430 40L560 110M430 40L560 145M430 40L560 180M430 40L560 215M430 98L560 40M430 98L560 75M430 98L560 110M430 98L560 145M430 98L560 180M430 98L560 215M430 157L560 40M430 157L560 75M430 157L560 110M430 157L560 145M430 157L560 180M430 157L560 215M430 215L560 40M430 215L560 75M430 215L560 110M430 215L560 145M430 215L560 180M430 215L560 215"/>
-<path d="M560 40L690 40M560 40L690 75M560 40L690 110M560 40L690 145M560 40L690 180M560 40L690 215M560 75L690 40M560 75L690 75M560 75L690 110M560 75L690 145M560 75L690 180M560 75L690 215M560 110L690 40M560 110L690 75M560 110L690 110M560 110L690 145M560 110L690 180M560 110L690 215M560 145L690 40M560 145L690 75M560 145L690 110M560 145L690 145M560 145L690 180M560 145L690 215M560 180L690 40M560 180L690 75M560 180L690 110M560 180L690 145M560 180L690 180M560 180L690 215M560 215L690 40M560 215L690 75M560 215L690 110M560 215L690 145M560 215L690 180M560 215L690 215"/>
-<path d="M690 40L820 40M690 40L820 128M690 40L820 215M690 75L820 40M690 75L820 128M690 75L820 215M690 110L820 40M690 110L820 128M690 110L820 215M690 145L820 40M690 145L820 128M690 145L820 215M690 180L820 40M690 180L820 128M690 180L820 215M690 215L820 40M690 215L820 128M690 215L820 215"/>
-</g>
-<g fill="#5BC8E8" opacity="0"><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0;0.25;1" values="0;1;0;0"/>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0;0.25;1" path="M430 40L560 110"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0;0.25;1" path="M430 98L560 180"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0;0.25;1" path="M430 215L560 40"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0;0.25;1" path="M430 215L560 180"/></circle>
-</g>
-<g fill="#5BC8E8" opacity="0"><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;1" values="0;1;0;0"/>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.25;0.5;1" path="M560 75L690 75"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.25;0.5;1" path="M560 110L690 75"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.25;0.5;1" path="M560 110L690 110"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.25;0.5;1" path="M560 110L690 145"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.25;0.5;1" path="M560 110L690 215"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.25;0.5;1" path="M560 145L690 75"/></circle>
-</g>
-<g fill="#5BC8E8" opacity="0"><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5;0.75;1" values="0;1;0;0"/>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5;0.75;1" path="M690 75L820 128"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5;0.75;1" path="M690 110L820 215"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5;0.75;1" path="M690 145L820 215"/></circle>
-</g>
-<g fill="#5BC8E8" opacity="0"><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" keyTimes="0;0.01;0.11;1" values="0;.22;0;0"/><circle cx="430" cy="40" r="14"/><circle cx="430" cy="98" r="14"/><circle cx="430" cy="157" r="14"/><circle cx="430" cy="215" r="14"/></g>
-<g fill="#5BC8E8" opacity="0"><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" keyTimes="0;0.25;0.35;1" values="0;.22;0;0"/><circle cx="560" cy="40" r="14"/><circle cx="560" cy="75" r="14"/><circle cx="560" cy="110" r="14"/><circle cx="560" cy="145" r="14"/><circle cx="560" cy="180" r="14"/><circle cx="560" cy="215" r="14"/></g>
-<g fill="#5BC8E8" opacity="0"><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" keyTimes="0;0.5;0.6;1" values="0;.22;0;0"/><circle cx="690" cy="40" r="14"/><circle cx="690" cy="75" r="14"/><circle cx="690" cy="110" r="14"/><circle cx="690" cy="145" r="14"/><circle cx="690" cy="180" r="14"/><circle cx="690" cy="215" r="14"/></g>
-<g fill="#5BC8E8" opacity="0"><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" keyTimes="0;0.75;0.85;1" values="0;.22;0;0"/><circle cx="820" cy="40" r="14"/><circle cx="820" cy="128" r="14"/><circle cx="820" cy="215" r="14"/></g>
-<g fill="#10161F" stroke="#94A3B8" stroke-opacity=".7" stroke-width="1.6"><circle cx="430" cy="40" r="6.5"/><circle cx="430" cy="98" r="6.5"/><circle cx="430" cy="157" r="6.5"/><circle cx="430" cy="215" r="6.5"/><circle cx="560" cy="40" r="6.5"/><circle cx="560" cy="75" r="6.5"/><circle cx="560" cy="110" r="6.5"/><circle cx="560" cy="145" r="6.5"/><circle cx="560" cy="180" r="6.5"/><circle cx="560" cy="215" r="6.5"/><circle cx="690" cy="40" r="6.5"/><circle cx="690" cy="75" r="6.5"/><circle cx="690" cy="110" r="6.5"/><circle cx="690" cy="145" r="6.5"/><circle cx="690" cy="180" r="6.5"/><circle cx="690" cy="215" r="6.5"/><circle cx="820" cy="40" r="6.5"/><circle cx="820" cy="128" r="6.5"/><circle cx="820" cy="215" r="6.5"/></g>
-<path d="M430 255V322H820" fill="none" stroke="#1F2937"/>
-<path d="M430 264L450 276L469 284L488 293L508 296L528 303L547 305L566 310L586 310L606 314L625 314L644 316L664 317L684 317L703 318L722 318L742 319L762 319L781 320L800 320L820 320" pathLength="1" fill="none" stroke="#E8A857" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" dur="9.6s" repeatCount="indefinite" values="1;0;0" keyTimes="0;.85;1"/></path>
-<g font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" fill="#94A3B8"><text x="438" y="266">loss</text><text x="772" y="316">epochs</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 896" width="900" height="896" role="img" aria-label="About: I work across data science, machine learning and business analytics. Selected work: business intelligence, predictive analytics, AI and automation, strategic analytics. How I work: discover, prepare, analyze, model, deliver. Toolkit: Python, SQL, Pandas, NumPy, Scikit-learn, Power BI, machine learning, statistics, data visualization.">
+<style>text{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,Menlo,Consolas,monospace}</style>
+<rect width="900" height="896" rx="12" fill="#0B0F15"/>
+<text x="44" y="52" font-size="24" font-weight="700" fill="#F1F5F9">About</text>
+<rect x="44" y="62" width="40" height="2" fill="#5BC8E8"/>
+<text x="44" y="92" font-size="15" fill="#94A3B8">I work across data science, machine learning and business analytics. I start with the</text>
+<text x="44" y="117" font-size="15" fill="#94A3B8">question the business needs answered, then choose the simplest method that answers it well.</text>
+<text x="44" y="142" font-size="15" fill="#94A3B8">My work covers data preparation, exploratory analysis, predictive modelling and clear reporting.</text>
+<text x="44" y="200" font-size="24" font-weight="700" fill="#F1F5F9">Selected work</text>
+<rect x="44" y="210" width="40" height="2" fill="#5BC8E8"/>
+<rect x="44" y="236" width="812" height="1" fill="#1F2937"/>
+<text x="44" y="272" font-size="17" font-weight="600" fill="#F1F5F9">Business intelligence</text>
+<text x="280" y="266" font-size="14" fill="#94A3B8">Dashboards that turn operational data into a clear view of performance</text>
+<text x="280" y="286" class="m" font-size="12" fill="#5BC8E8">Power BI  ·  SQL</text>
+<rect x="44" y="302" width="812" height="1" fill="#1F2937"/>
+<text x="44" y="338" font-size="17" font-weight="600" fill="#F1F5F9">Predictive analytics</text>
+<text x="280" y="332" font-size="14" fill="#94A3B8">Machine learning workflows that find patterns and forecast outcomes</text>
+<text x="280" y="352" class="m" font-size="12" fill="#5BC8E8">Python  ·  Scikit-learn  ·  Statistics</text>
+<rect x="44" y="368" width="812" height="1" fill="#1F2937"/>
+<text x="44" y="404" font-size="17" font-weight="600" fill="#F1F5F9">AI and automation</text>
+<text x="280" y="398" font-size="14" fill="#94A3B8">Automated data workflows that combine APIs and AI models</text>
+<text x="280" y="418" class="m" font-size="12" fill="#5BC8E8">Python  ·  APIs</text>
+<rect x="44" y="434" width="812" height="1" fill="#1F2937"/>
+<text x="44" y="470" font-size="17" font-weight="600" fill="#F1F5F9">Strategic analytics</text>
+<text x="280" y="464" font-size="14" fill="#94A3B8">KPI frameworks that connect analysis to planning</text>
+<text x="280" y="484" class="m" font-size="12" fill="#5BC8E8">KPIs  ·  Analysis</text>
+<rect x="44" y="500" width="812" height="1" fill="#1F2937"/>
+<text x="44" y="556" font-size="24" font-weight="700" fill="#F1F5F9">How I work</text>
+<rect x="44" y="566" width="40" height="2" fill="#5BC8E8"/>
+<rect x="44" y="586" width="152" height="108" rx="8" fill="#10161F" stroke="#1F2937"/>
+<text x="60" y="614" class="m" font-size="13" fill="#E8A857">01</text>
+<text x="60" y="640" font-size="16" font-weight="600" fill="#F1F5F9">Discover</text>
+<text x="60" y="662" font-size="12" fill="#94A3B8">Define the question</text>
+<text x="60" y="678" font-size="12" fill="#94A3B8">and check the data</text>
+<rect x="209" y="586" width="152" height="108" rx="8" fill="#10161F" stroke="#1F2937"/>
+<text x="225" y="614" class="m" font-size="13" fill="#E8A857">02</text>
+<text x="225" y="640" font-size="16" font-weight="600" fill="#F1F5F9">Prepare</text>
+<text x="225" y="662" font-size="12" fill="#94A3B8">Clean and structure</text>
+<text x="225" y="678" font-size="12" fill="#94A3B8">the data</text>
+<rect x="374" y="586" width="152" height="108" rx="8" fill="#10161F" stroke="#1F2937"/>
+<text x="390" y="614" class="m" font-size="13" fill="#E8A857">03</text>
+<text x="390" y="640" font-size="16" font-weight="600" fill="#F1F5F9">Analyze</text>
+<text x="390" y="662" font-size="12" fill="#94A3B8">Find patterns and</text>
+<text x="390" y="678" font-size="12" fill="#94A3B8">relationships</text>
+<rect x="539" y="586" width="152" height="108" rx="8" fill="#10161F" stroke="#1F2937"/>
+<text x="555" y="614" class="m" font-size="13" fill="#E8A857">04</text>
+<text x="555" y="640" font-size="16" font-weight="600" fill="#F1F5F9">Model</text>
+<text x="555" y="662" font-size="12" fill="#94A3B8">Build and validate</text>
+<text x="555" y="678" font-size="12" fill="#94A3B8">when needed</text>
+<rect x="704" y="586" width="152" height="108" rx="8" fill="#10161F" stroke="#1F2937"/>
+<text x="720" y="614" class="m" font-size="13" fill="#E8A857">05</text>
+<text x="720" y="640" font-size="16" font-weight="600" fill="#F1F5F9">Deliver</text>
+<text x="720" y="662" font-size="12" fill="#94A3B8">Share findings in a</text>
+<text x="720" y="678" font-size="12" fill="#94A3B8">report or dashboard</text>
+<text x="44" y="750" font-size="24" font-weight="700" fill="#F1F5F9">Toolkit</text>
+<rect x="44" y="760" width="40" height="2" fill="#5BC8E8"/>
+<rect x="44" y="780" width="72" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
+<text x="58" y="800" font-size="13" fill="#BFE9F5">Python</text>
+<rect x="126" y="780" width="50" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
+<text x="140" y="800" font-size="13" fill="#BFE9F5">SQL</text>
+<rect x="186" y="780" width="72" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
+<text x="200" y="800" font-size="13" fill="#BFE9F5">Pandas</text>
+<rect x="268" y="780" width="65" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
+<text x="282" y="800" font-size="13" fill="#BFE9F5">NumPy</text>
+<rect x="343" y="780" width="117" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
+<text x="357" y="800" font-size="13" fill="#BFE9F5">Scikit-learn</text>
+<rect x="470" y="780" width="87" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
+<text x="484" y="800" font-size="13" fill="#BFE9F5">Power BI</text>
+<rect x="567" y="780" width="146" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
+<text x="581" y="800" font-size="13" fill="#BFE9F5">Machine learning</text>
+<rect x="723" y="780" width="102" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
+<text x="737" y="800" font-size="13" fill="#BFE9F5">Statistics</text>
+<rect x="44" y="822" width="161" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
+<text x="58" y="842" font-size="13" fill="#BFE9F5">Data visualization</text>
 </svg>
