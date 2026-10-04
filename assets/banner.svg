@@ -1,214 +1,313 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 2482" width="900" height="2482" role="img" aria-label="Nur A Alam, Data Scientist. Animated neural network banner, followed by profile, results, selected projects, workflow, technology stack, roadmap and contact sections.">
-<style>text{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,Menlo,Consolas,monospace}</style>
-<rect width="900" height="2482" rx="12" fill="#0B0F15"/>
-<text class="m" x="44" y="108" font-size="12" fill="#5BC8E8" letter-spacing="3">DATA • AI • BUSINESS ANALYTICS</text>
-<text x="44" y="160" font-size="52" font-weight="700" fill="#F1F5F9">Nur A Alam</text>
-<text x="44" y="198" font-size="21" font-weight="600" fill="#5BC8E8">Data Scientist</text>
-<text x="44" y="226" font-size="15" fill="#CBD5E1">Machine Learning • Business Intelligence</text>
-<text x="44" y="256" font-size="13" fill="#94A3B8">Data Strategy • AI Solutions • Business Analytics</text>
-<g stroke="#94A3B8" stroke-opacity=".13" fill="none">
-<path d="M430 40L560 40M430 40L560 75M430 40L560 110M430 40L560 145M430 40L560 180M430 40L560 215M430 98L560 40M430 98L560 75M430 98L560 110M430 98L560 145M430 98L560 180M430 98L560 215M430 157L560 40M430 157L560 75M430 157L560 110M430 157L560 145M430 157L560 180M430 157L560 215M430 215L560 40M430 215L560 75M430 215L560 110M430 215L560 145M430 215L560 180M430 215L560 215"/>
-<path d="M560 40L690 40M560 40L690 75M560 40L690 110M560 40L690 145M560 40L690 180M560 40L690 215M560 75L690 40M560 75L690 75M560 75L690 110M560 75L690 145M560 75L690 180M560 75L690 215M560 110L690 40M560 110L690 75M560 110L690 110M560 110L690 145M560 110L690 180M560 110L690 215M560 145L690 40M560 145L690 75M560 145L690 110M560 145L690 145M560 145L690 180M560 145L690 215M560 180L690 40M560 180L690 75M560 180L690 110M560 180L690 145M560 180L690 180M560 180L690 215M560 215L690 40M560 215L690 75M560 215L690 110M560 215L690 145M560 215L690 180M560 215L690 215"/>
-<path d="M690 40L820 40M690 40L820 128M690 40L820 215M690 75L820 40M690 75L820 128M690 75L820 215M690 110L820 40M690 110L820 128M690 110L820 215M690 145L820 40M690 145L820 128M690 145L820 215M690 180L820 40M690 180L820 128M690 180L820 215M690 215L820 40M690 215L820 128M690 215L820 215"/>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1600" height="900" viewBox="0 0 1600 900"
+     role="img"
+     aria-label="Nur A Alam — Data Scientist, AI, Machine Learning and Business Analytics">
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070B11"/>
+    <stop offset=".55" stop-color="#0B111A"/>
+    <stop offset="1" stop-color="#0D1720"/>
+  </linearGradient>
+
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#5BC8E8"/>
+    <stop offset="1" stop-color="#38AFCF"/>
+  </linearGradient>
+
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#F4C06B"/>
+    <stop offset="1" stop-color="#D98A39"/>
+  </linearGradient>
+
+  <radialGradient id="glow">
+    <stop offset="0" stop-color="#5BC8E8" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#5BC8E8" stop-opacity="0"/>
+  </radialGradient>
+
+  <filter id="soft">
+    <feGaussianBlur stdDeviation="28"/>
+  </filter>
+
+  <filter id="shadow">
+    <feDropShadow dx="0" dy="12" stdDeviation="22"
+                  flood-color="#000" flood-opacity=".35"/>
+  </filter>
+
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  </style>
+</defs>
+
+<!-- BACKGROUND -->
+<rect width="1600" height="900" rx="24" fill="url(#bg)"/>
+
+<!-- Ambient glows -->
+<circle cx="1320" cy="180" r="360" fill="url(#glow)" filter="url(#soft)"/>
+<circle cx="150" cy="780" r="300" fill="url(#glow)" filter="url(#soft)"/>
+
+<!-- Subtle grid -->
+<g opacity=".055" stroke="#8BA3B5">
+  <path d="M0 100H1600M0 200H1600M0 300H1600M0 400H1600M0 500H1600M0 600H1600M0 700H1600M0 800H1600"/>
+  <path d="M100 0V900M200 0V900M300 0V900M400 0V900M500 0V900M600 0V900M700 0V900M800 0V900M900 0V900M1000 0V900M1100 0V900M1200 0V900M1300 0V900M1400 0V900M1500 0V900"/>
 </g>
-<g fill="#5BC8E8" opacity="0"><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0;0.25;1" values="0;1;0;0"/>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0;0.25;1" path="M430 40L560 110"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0;0.25;1" path="M430 98L560 180"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0;0.25;1" path="M430 215L560 40"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0;0.25;1" path="M430 215L560 180"/></circle>
+
+<!-- TOP LABEL -->
+<text x="90" y="92"
+      class="mono"
+      font-size="15"
+      letter-spacing="5"
+      fill="#5BC8E8">
+  DATA • AI • BUSINESS ANALYTICS
+</text>
+
+<!-- LEFT HERO -->
+<text x="90" y="185"
+      class="sans"
+      font-size="76"
+      font-weight="750"
+      fill="#F4F7FA">
+  Nur A Alam
+</text>
+
+<text x="94" y="235"
+      class="sans"
+      font-size="30"
+      font-weight="650"
+      fill="#5BC8E8">
+  Data Scientist
+</text>
+
+<text x="94" y="274"
+      class="sans"
+      font-size="18"
+      fill="#AAB7C5">
+  Machine Learning • Artificial Intelligence • Business Intelligence
+</text>
+
+<text x="94" y="308"
+      class="sans"
+      font-size="16"
+      fill="#728394">
+  Turning complex data into practical intelligence and measurable impact.
+</text>
+
+<!-- HERO TAGS -->
+<g class="mono" font-size="13">
+  <rect x="90" y="350" width="112" height="34" rx="17"
+        fill="#101C25" stroke="#244453"/>
+  <text x="112" y="372" fill="#BFE9F5">PYTHON</text>
+
+  <rect x="214" y="350" width="82" height="34" rx="17"
+        fill="#101C25" stroke="#244453"/>
+  <text x="237" y="372" fill="#BFE9F5">SQL</text>
+
+  <rect x="308" y="350" width="142" height="34" rx="17"
+        fill="#101C25" stroke="#244453"/>
+  <text x="330" y="372" fill="#BFE9F5">MACHINE LEARNING</text>
+
+  <rect x="462" y="350" width="126" height="34" rx="17"
+        fill="#101C25" stroke="#244453"/>
+  <text x="485" y="372" fill="#BFE9F5">POWER BI</text>
 </g>
-<g fill="#5BC8E8" opacity="0"><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;1" values="0;1;0;0"/>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.25;0.5;1" path="M560 75L690 75"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.25;0.5;1" path="M560 110L690 75"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.25;0.5;1" path="M560 110L690 110"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.25;0.5;1" path="M560 110L690 145"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.25;0.5;1" path="M560 110L690 215"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.25;0.5;1" path="M560 145L690 75"/></circle>
+
+<!-- HERO DIVIDER -->
+<line x1="90" y1="420" x2="730" y2="420"
+      stroke="#1D2B35"/>
+
+<text x="90" y="458"
+      class="mono"
+      font-size="12"
+      letter-spacing="3"
+      fill="#E8A857">
+  DATA → INSIGHT → DECISION
+</text>
+
+<!-- MINI METRICS -->
+<g class="sans">
+  <text x="90" y="515" font-size="28" font-weight="700" fill="#F1F5F9">01</text>
+  <text x="90" y="540" font-size="13" fill="#7F909F">DATA STRATEGY</text>
+
+  <text x="250" y="515" font-size="28" font-weight="700" fill="#F1F5F9">02</text>
+  <text x="250" y="540" font-size="13" fill="#7F909F">PREDICTIVE ANALYTICS</text>
+
+  <text x="475" y="515" font-size="28" font-weight="700" fill="#F1F5F9">03</text>
+  <text x="475" y="540" font-size="13" fill="#7F909F">AI &amp; AUTOMATION</text>
 </g>
-<g fill="#5BC8E8" opacity="0"><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5;0.75;1" values="0;1;0;0"/>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5;0.75;1" path="M690 75L820 128"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5;0.75;1" path="M690 110L820 215"/></circle>
-<circle r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5;0.75;1" path="M690 145L820 215"/></circle>
+
+<!-- RIGHT NETWORK PANEL -->
+<rect x="790" y="72" width="720" height="500"
+      rx="22"
+      fill="#0A1118"
+      stroke="#1D303B"
+      filter="url(#shadow)"/>
+
+<!-- Network heading -->
+<text x="830" y="120"
+      class="mono"
+      font-size="12"
+      letter-spacing="3"
+      fill="#637785">
+  INTELLIGENCE PIPELINE
+</text>
+
+<text x="830" y="153"
+      class="sans"
+      font-size="22"
+      font-weight="650"
+      fill="#E9F0F4">
+  From raw signals to decisions
+</text>
+
+<!-- Network connections -->
+<g stroke="#34505E" stroke-width="1.5" opacity=".7">
+  <!-- input to hidden -->
+  <path d="M850 230L1040 190"/>
+  <path d="M850 230L1040 285"/>
+  <path d="M850 330L1040 190"/>
+  <path d="M850 330L1040 285"/>
+  <path d="M850 430L1040 285"/>
+  <path d="M850 430L1040 385"/>
+
+  <!-- hidden -->
+  <path d="M1040 190L1240 220"/>
+  <path d="M1040 190L1240 330"/>
+  <path d="M1040 285L1240 220"/>
+  <path d="M1040 285L1240 330"/>
+  <path d="M1040 285L1240 440"/>
+  <path d="M1040 385L1240 330"/>
+  <path d="M1040 385L1240 440"/>
+
+  <!-- output -->
+  <path d="M1240 220L1430 330"/>
+  <path d="M1240 330L1430 330"/>
+  <path d="M1240 440L1430 330"/>
 </g>
-<g fill="#5BC8E8" opacity="0"><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" keyTimes="0;0.01;0.11;1" values="0;.22;0;0"/><circle cx="430" cy="40" r="14"/><circle cx="430" cy="98" r="14"/><circle cx="430" cy="157" r="14"/><circle cx="430" cy="215" r="14"/></g>
-<g fill="#5BC8E8" opacity="0"><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" keyTimes="0;0.25;0.35;1" values="0;.22;0;0"/><circle cx="560" cy="40" r="14"/><circle cx="560" cy="75" r="14"/><circle cx="560" cy="110" r="14"/><circle cx="560" cy="145" r="14"/><circle cx="560" cy="180" r="14"/><circle cx="560" cy="215" r="14"/></g>
-<g fill="#5BC8E8" opacity="0"><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" keyTimes="0;0.5;0.6;1" values="0;.22;0;0"/><circle cx="690" cy="40" r="14"/><circle cx="690" cy="75" r="14"/><circle cx="690" cy="110" r="14"/><circle cx="690" cy="145" r="14"/><circle cx="690" cy="180" r="14"/><circle cx="690" cy="215" r="14"/></g>
-<g fill="#5BC8E8" opacity="0"><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" keyTimes="0;0.75;0.85;1" values="0;.22;0;0"/><circle cx="820" cy="40" r="14"/><circle cx="820" cy="128" r="14"/><circle cx="820" cy="215" r="14"/></g>
-<g fill="#10161F" stroke="#94A3B8" stroke-opacity=".7" stroke-width="1.6"><circle cx="430" cy="40" r="6.5"/><circle cx="430" cy="98" r="6.5"/><circle cx="430" cy="157" r="6.5"/><circle cx="430" cy="215" r="6.5"/><circle cx="560" cy="40" r="6.5"/><circle cx="560" cy="75" r="6.5"/><circle cx="560" cy="110" r="6.5"/><circle cx="560" cy="145" r="6.5"/><circle cx="560" cy="180" r="6.5"/><circle cx="560" cy="215" r="6.5"/><circle cx="690" cy="40" r="6.5"/><circle cx="690" cy="75" r="6.5"/><circle cx="690" cy="110" r="6.5"/><circle cx="690" cy="145" r="6.5"/><circle cx="690" cy="180" r="6.5"/><circle cx="690" cy="215" r="6.5"/><circle cx="820" cy="40" r="6.5"/><circle cx="820" cy="128" r="6.5"/><circle cx="820" cy="215" r="6.5"/></g>
-<path d="M430 255V322H820" fill="none" stroke="#1F2937"/>
-<path d="M430 264L450 276L469 284L488 293L508 296L528 303L547 305L566 310L586 310L606 314L625 314L644 316L664 317L684 317L703 318L722 318L742 319L762 319L781 320L800 320L820 320" pathLength="1" fill="none" stroke="#E8A857" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" dur="9.6s" repeatCount="indefinite" values="1;0;0" keyTimes="0;.85;1"/></path>
-<text class="m" x="438" y="266" font-size="11" fill="#94A3B8">loss</text><text class="m" x="772" y="316" font-size="11" fill="#94A3B8">epochs</text>
-<g transform="translate(0,330)">
-<text x="44" y="40" font-weight="700" font-size="26" fill="#F1F5F9">Data with purpose. Intelligence with impact.</text>
-<rect x="44" y="52" width="40" height="2" fill="#5BC8E8"/>
-<text x="44" y="86" font-size="15" fill="#94A3B8">Transforming complex data into practical intelligence, scalable analytics systems and measurable</text>
-<text x="44" y="110" font-size="15" fill="#94A3B8">business outcomes.</text>
-<text x="44" y="148" font-size="15" fill="#94A3B8">I work at the intersection of data science, artificial</text>
-<text x="44" y="172" font-size="15" fill="#94A3B8">intelligence, machine learning and business strategy.</text>
-<text x="44" y="204" font-size="15" fill="#94A3B8">My focus is not simply building models. I design analytical</text>
-<text x="44" y="228" font-size="15" fill="#94A3B8">solutions that connect data, technology and decision-making.</text>
-<text x="44" y="260" font-size="15" fill="#94A3B8">From data preparation and exploratory analysis to predictive</text>
-<text x="44" y="284" font-size="15" fill="#94A3B8">modelling, visualization and strategic insight, every solution</text>
-<text x="44" y="308" font-size="15" fill="#94A3B8">is designed around a clear business objective.</text>
-<rect x="560" y="142" width="296" height="256" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="580" y="178" font-size="12" fill="#94A3B8">Core Focus</text>
-<text x="580" y="200" font-weight="600" font-size="15" fill="#F1F5F9">Data Science &amp; AI</text>
-<rect x="580" y="212" width="256" height="1" fill="#1F2937"/>
-<text x="580" y="240" font-size="12" fill="#94A3B8">Specialization</text>
-<text x="580" y="262" font-weight="600" font-size="15" fill="#F1F5F9">Machine Learning &amp; Analytics</text>
-<rect x="580" y="274" width="256" height="1" fill="#1F2937"/>
-<text x="580" y="302" font-size="12" fill="#94A3B8">Business Value</text>
-<text x="580" y="324" font-weight="600" font-size="15" fill="#F1F5F9">Decision Intelligence</text>
-<rect x="580" y="336" width="256" height="1" fill="#1F2937"/>
-<text x="580" y="364" font-size="12" fill="#94A3B8">Approach</text>
-<text x="580" y="386" font-weight="600" font-size="15" fill="#F1F5F9">Evidence-driven &amp; scalable</text>
-<text x="44" y="458" font-weight="700" font-size="26" fill="#F1F5F9">Turning information into decisions.</text>
-<rect x="44" y="470" width="40" height="2" fill="#5BC8E8"/>
-<text x="44" y="504" font-size="15" fill="#94A3B8">A practical approach focused on measurable value, analytical clarity and business outcomes.</text>
-<rect x="44" y="538" width="194" height="104" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="60" y="578" font-weight="700" font-size="30" fill="#5BC8E8">01</text>
-<text x="60" y="604" font-size="13" fill="#CBD5E1">Data-driven strategic</text>
-<text x="60" y="622" font-size="13" fill="#CBD5E1">insights</text>
-<rect x="250" y="538" width="194" height="104" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="266" y="578" font-weight="700" font-size="30" fill="#5BC8E8">02</text>
-<text x="266" y="604" font-size="13" fill="#CBD5E1">Predictive analytical</text>
-<text x="266" y="622" font-size="13" fill="#CBD5E1">solutions</text>
-<rect x="456" y="538" width="194" height="104" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="472" y="578" font-weight="700" font-size="30" fill="#5BC8E8">03</text>
-<text x="472" y="604" font-size="13" fill="#CBD5E1">Automated intelligence</text>
-<text x="472" y="622" font-size="13" fill="#CBD5E1">workflows</text>
-<rect x="662" y="538" width="194" height="104" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="678" y="578" font-weight="700" font-size="30" fill="#5BC8E8">04</text>
-<text x="678" y="604" font-size="13" fill="#CBD5E1">Executive-ready</text>
-<text x="678" y="622" font-size="13" fill="#CBD5E1">reporting</text>
-<text x="44" y="702" font-weight="700" font-size="26" fill="#F1F5F9">Projects built around real-world problems.</text>
-<rect x="44" y="714" width="40" height="2" fill="#5BC8E8"/>
-<rect x="44" y="736" width="812" height="1" fill="#1F2937"/>
-<text x="44" y="766" class="m" font-size="11" fill="#E8A857">PROJECT 01</text>
-<text x="44" y="790" font-weight="600" font-size="19" fill="#F1F5F9">Business Intelligence</text>
-<text x="290" y="766" font-size="14" fill="#94A3B8">Analytical dashboards and reporting systems designed to transform</text>
-<text x="290" y="786" font-size="14" fill="#94A3B8">operational data into clear executive-level insights.</text>
-<text x="290" y="812" class="m" font-size="12" fill="#5BC8E8">Power BI  ·  SQL  ·  Data Analytics  ·  Dashboarding</text>
-<rect x="44" y="836" width="812" height="1" fill="#1F2937"/>
-<text x="44" y="866" class="m" font-size="11" fill="#E8A857">PROJECT 02</text>
-<text x="44" y="890" font-weight="600" font-size="19" fill="#F1F5F9">Predictive Analytics</text>
-<text x="290" y="866" font-size="14" fill="#94A3B8">Machine learning workflows designed to identify patterns, predict outcomes</text>
-<text x="290" y="886" font-size="14" fill="#94A3B8">and support data-informed decisions.</text>
-<text x="290" y="912" class="m" font-size="12" fill="#5BC8E8">Python  ·  Machine Learning  ·  Statistics  ·  Predictive Modeling</text>
-<rect x="44" y="936" width="812" height="1" fill="#1F2937"/>
-<text x="44" y="966" class="m" font-size="11" fill="#E8A857">PROJECT 03</text>
-<text x="44" y="990" font-weight="600" font-size="19" fill="#F1F5F9">AI &amp; Automation</text>
-<text x="290" y="966" font-size="14" fill="#94A3B8">Intelligent workflows combining automation, artificial intelligence and</text>
-<text x="290" y="986" font-size="14" fill="#94A3B8">structured data processes to improve efficiency.</text>
-<text x="290" y="1012" class="m" font-size="12" fill="#5BC8E8">AI  ·  Automation  ·  Python  ·  APIs</text>
-<rect x="44" y="1036" width="812" height="1" fill="#1F2937"/>
-<text x="44" y="1066" class="m" font-size="11" fill="#E8A857">PROJECT 04</text>
-<text x="44" y="1090" font-weight="600" font-size="19" fill="#F1F5F9">Strategic Analytics</text>
-<text x="290" y="1066" font-size="14" fill="#94A3B8">Data-driven frameworks that connect analytical findings with strategic</text>
-<text x="290" y="1086" font-size="14" fill="#94A3B8">planning, performance measurement and organizational priorities.</text>
-<text x="290" y="1112" class="m" font-size="12" fill="#5BC8E8">Strategy  ·  Analytics  ·  KPIs  ·  Decision Support</text>
-<rect x="44" y="1136" width="812" height="1" fill="#1F2937"/>
-<text x="44" y="1196" font-weight="700" font-size="26" fill="#F1F5F9">From raw data to business value.</text>
-<rect x="44" y="1208" width="40" height="2" fill="#5BC8E8"/>
-<rect x="44" y="1230" width="152" height="150" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="60" y="1258" class="m" font-size="13" fill="#E8A857">01</text>
-<text x="60" y="1284" font-weight="600" font-size="16" fill="#F1F5F9">Discover</text>
-<text x="60" y="1306" font-size="12" fill="#94A3B8">Understand the</text>
-<text x="60" y="1322" font-size="12" fill="#94A3B8">business problem,</text>
-<text x="60" y="1338" font-size="12" fill="#94A3B8">objectives and</text>
-<text x="60" y="1354" font-size="12" fill="#94A3B8">available data.</text>
-<rect x="209" y="1230" width="152" height="150" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="225" y="1258" class="m" font-size="13" fill="#E8A857">02</text>
-<text x="225" y="1284" font-weight="600" font-size="16" fill="#F1F5F9">Prepare</text>
-<text x="225" y="1306" font-size="12" fill="#94A3B8">Clean, structure and</text>
-<text x="225" y="1322" font-size="12" fill="#94A3B8">transform data into</text>
-<text x="225" y="1338" font-size="12" fill="#94A3B8">analysis-ready</text>
-<text x="225" y="1354" font-size="12" fill="#94A3B8">information.</text>
-<rect x="374" y="1230" width="152" height="150" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="390" y="1258" class="m" font-size="13" fill="#E8A857">03</text>
-<text x="390" y="1284" font-weight="600" font-size="16" fill="#F1F5F9">Analyze</text>
-<text x="390" y="1306" font-size="12" fill="#94A3B8">Identify patterns,</text>
-<text x="390" y="1322" font-size="12" fill="#94A3B8">trends,</text>
-<text x="390" y="1338" font-size="12" fill="#94A3B8">relationships and</text>
-<text x="390" y="1354" font-size="12" fill="#94A3B8">opportunities.</text>
-<rect x="539" y="1230" width="152" height="150" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="555" y="1258" class="m" font-size="13" fill="#E8A857">04</text>
-<text x="555" y="1284" font-weight="600" font-size="16" fill="#F1F5F9">Model</text>
-<text x="555" y="1306" font-size="12" fill="#94A3B8">Develop analytical</text>
-<text x="555" y="1322" font-size="12" fill="#94A3B8">and machine learning</text>
-<text x="555" y="1338" font-size="12" fill="#94A3B8">solutions where</text>
-<text x="555" y="1354" font-size="12" fill="#94A3B8">appropriate.</text>
-<rect x="704" y="1230" width="152" height="150" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="720" y="1258" class="m" font-size="13" fill="#E8A857">05</text>
-<text x="720" y="1284" font-weight="600" font-size="16" fill="#F1F5F9">Deliver</text>
-<text x="720" y="1306" font-size="12" fill="#94A3B8">Communicate insights</text>
-<text x="720" y="1322" font-size="12" fill="#94A3B8">through dashboards,</text>
-<text x="720" y="1338" font-size="12" fill="#94A3B8">reports and</text>
-<text x="720" y="1354" font-size="12" fill="#94A3B8">decisions.</text>
-<text x="44" y="1440" font-weight="700" font-size="26" fill="#F1F5F9">Technology stack.</text>
-<rect x="44" y="1452" width="40" height="2" fill="#5BC8E8"/>
-<text x="44" y="1486" font-size="15" fill="#94A3B8">A flexible toolkit for analytics, artificial intelligence, visualization and business intelligence.</text>
-<rect x="44" y="1520" width="72" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="58" y="1540" font-size="13" fill="#BFE9F5">Python</text>
-<rect x="126" y="1520" width="50" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="140" y="1540" font-size="13" fill="#BFE9F5">SQL</text>
-<rect x="186" y="1520" width="72" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="200" y="1540" font-size="13" fill="#BFE9F5">Pandas</text>
-<rect x="268" y="1520" width="65" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="282" y="1540" font-size="13" fill="#BFE9F5">NumPy</text>
-<rect x="343" y="1520" width="117" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="357" y="1540" font-size="13" fill="#BFE9F5">Scikit-Learn</text>
-<rect x="470" y="1520" width="146" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="484" y="1540" font-size="13" fill="#BFE9F5">Machine Learning</text>
-<rect x="626" y="1520" width="198" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="640" y="1540" font-size="13" fill="#BFE9F5">Artificial Intelligence</text>
-<rect x="44" y="1562" width="87" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="58" y="1582" font-size="13" fill="#BFE9F5">Power BI</text>
-<rect x="141" y="1562" width="161" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="155" y="1582" font-size="13" fill="#BFE9F5">Data Visualization</text>
-<rect x="312" y="1562" width="102" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="326" y="1582" font-size="13" fill="#BFE9F5">Statistics</text>
-<rect x="424" y="1562" width="161" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="438" y="1582" font-size="13" fill="#BFE9F5">Business Analytics</text>
-<rect x="595" y="1562" width="124" height="30" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="609" y="1582" font-size="13" fill="#BFE9F5">Data Strategy</text>
-<text x="44" y="1652" font-weight="700" font-size="26" fill="#F1F5F9">Building toward intelligent organizations.</text>
-<rect x="44" y="1664" width="40" height="2" fill="#5BC8E8"/>
-<rect x="44" y="1686" width="194" height="150" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="58" y="1714" class="m" font-size="11" fill="#E8A857">PHASE 01</text>
-<text x="58" y="1738" font-weight="700" font-size="14" fill="#F1F5F9">Data Foundation</text>
-<text x="58" y="1762" font-size="12" fill="#94A3B8">Establish reliable data</text>
-<text x="58" y="1778" font-size="12" fill="#94A3B8">structures, analytical</text>
-<text x="58" y="1794" font-size="12" fill="#94A3B8">processes and reporting</text>
-<text x="58" y="1810" font-size="12" fill="#94A3B8">foundations.</text>
-<rect x="250" y="1686" width="194" height="150" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="264" y="1714" class="m" font-size="11" fill="#E8A857">PHASE 02</text>
-<text x="264" y="1738" font-weight="700" font-size="14" fill="#F1F5F9">Advanced Analytics</text>
-<text x="264" y="1762" font-size="12" fill="#94A3B8">Introduce predictive</text>
-<text x="264" y="1778" font-size="12" fill="#94A3B8">analytics, machine learning</text>
-<text x="264" y="1794" font-size="12" fill="#94A3B8">and deeper insights.</text>
-<rect x="456" y="1686" width="194" height="150" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="470" y="1714" class="m" font-size="11" fill="#E8A857">PHASE 03</text>
-<text x="470" y="1738" font-weight="700" font-size="14" fill="#F1F5F9">AI Integration</text>
-<text x="470" y="1762" font-size="12" fill="#94A3B8">Connect artificial</text>
-<text x="470" y="1778" font-size="12" fill="#94A3B8">intelligence with</text>
-<text x="470" y="1794" font-size="12" fill="#94A3B8">workflows, decision systems</text>
-<text x="470" y="1810" font-size="12" fill="#94A3B8">and automation.</text>
-<rect x="662" y="1686" width="194" height="150" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="676" y="1714" class="m" font-size="11" fill="#E8A857">PHASE 04</text>
-<text x="676" y="1738" font-weight="700" font-size="14" fill="#F1F5F9">Decision Intelligence</text>
-<text x="676" y="1762" font-size="12" fill="#94A3B8">Build integrated analytical</text>
-<text x="676" y="1778" font-size="12" fill="#94A3B8">systems that support</text>
-<text x="676" y="1794" font-size="12" fill="#94A3B8">strategic organizational</text>
-<text x="676" y="1810" font-size="12" fill="#94A3B8">decisions.</text>
-<text x="44" y="1896" font-weight="700" font-size="26" fill="#F1F5F9">Let&#x27;s turn data into direction.</text>
-<rect x="44" y="1908" width="40" height="2" fill="#5BC8E8"/>
-<text x="44" y="1942" font-size="15" fill="#94A3B8">Whether the challenge involves analytics, artificial intelligence, business intelligence or data</text>
-<text x="44" y="1966" font-size="15" fill="#94A3B8">strategy, the goal is simple: create solutions that deliver meaningful value.</text>
-<rect x="44" y="2000" width="812" height="84" rx="8" fill="#10161F" stroke="#1F2937"/>
-<text x="68" y="2036" font-weight="700" font-size="20" fill="#F1F5F9">Start a conversation.</text>
-<text x="68" y="2062" font-size="14" fill="#94A3B8">Let&#x27;s explore how data and AI can create measurable impact.</text>
-<text x="44" y="2128" font-size="12" fill="#64748B">© 2026 Nur A Alam</text>
-<text x="606" y="2128" font-size="12" fill="#64748B">Data Science • AI • Business Analytics</text>
+
+<!-- Highlight paths -->
+<g stroke="#5BC8E8" stroke-width="2.5" opacity=".65">
+  <path d="M850 230L1040 285L1240 330L1430 330"/>
+  <path d="M850 430L1040 385L1240 440L1430 330"/>
 </g>
+
+<!-- Input nodes -->
+<g fill="#0E1820" stroke="#5BC8E8" stroke-width="2">
+  <circle cx="850" cy="230" r="10"/>
+  <circle cx="850" cy="330" r="10"/>
+  <circle cx="850" cy="430" r="10"/>
+</g>
+
+<!-- Hidden nodes -->
+<g fill="#0E1820" stroke="#5BC8E8" stroke-width="2">
+  <circle cx="1040" cy="190" r="9"/>
+  <circle cx="1040" cy="285" r="11"/>
+  <circle cx="1040" cy="385" r="9"/>
+</g>
+
+<!-- Decision nodes -->
+<g fill="#0E1820" stroke="#E8A857" stroke-width="2">
+  <circle cx="1240" cy="220" r="10"/>
+  <circle cx="1240" cy="330" r="12"/>
+  <circle cx="1240" cy="440" r="10"/>
+</g>
+
+<!-- Output -->
+<circle cx="1430" cy="330" r="18"
+        fill="#0D1A21"
+        stroke="#5BC8E8"
+        stroke-width="3"/>
+
+<circle cx="1430" cy="330" r="7"
+        fill="#5BC8E8"/>
+
+<!-- Network labels -->
+<g class="mono" font-size="11">
+  <text x="818" y="210" fill="#667B88">DATA</text>
+  <text x="1005" y="165" fill="#667B88">MODEL</text>
+  <text x="1200" y="195" fill="#667B88">INSIGHT</text>
+  <text x="1400" y="305" fill="#E8A857">DECISION</text>
+</g>
+
+<!-- Bottom architecture -->
+<rect x="90" y="610" width="1420" height="210"
+      rx="22"
+      fill="#0A1118"
+      stroke="#1D303B"/>
+
+<text x="125" y="657"
+      class="mono"
+      font-size="12"
+      letter-spacing="3"
+      fill="#637785">
+  WHAT I BUILD
+</text>
+
+<!-- Cards -->
+<g class="sans">
+
+  <rect x="125" y="685" width="300" height="96"
+        rx="12" fill="#101820" stroke="#1C303A"/>
+  <circle cx="153" cy="715" r="7" fill="#5BC8E8"/>
+  <text x="173" y="720" font-size="17"
+        font-weight="650" fill="#F1F5F9">
+    Business Intelligence
+  </text>
+  <text x="153" y="750" font-size="12" fill="#81929F">
+    Dashboards • KPIs • Executive reporting
+  </text>
+
+  <rect x="450" y="685" width="300" height="96"
+        rx="12" fill="#101820" stroke="#1C303A"/>
+  <circle cx="478" cy="715" r="7" fill="#5BC8E8"/>
+  <text x="498" y="720" font-size="17"
+        font-weight="650" fill="#F1F5F9">
+    Predictive Analytics
+  </text>
+  <text x="478" y="750" font-size="12" fill="#81929F">
+    ML • Statistics • Forecasting
+  </text>
+
+  <rect x="775" y="685" width="300" height="96"
+        rx="12" fill="#101820" stroke="#1C303A"/>
+  <circle cx="803" cy="715" r="7" fill="#E8A857"/>
+  <text x="823" y="720" font-size="17"
+        font-weight="650" fill="#F1F5F9">
+    AI &amp; Automation
+  </text>
+  <text x="803" y="750" font-size="12" fill="#81929F">
+    Intelligent workflows • APIs • AI
+  </text>
+
+  <rect x="1100" y="685" width="375" height="96"
+        rx="12" fill="#101820" stroke="#1C303A"/>
+  <circle cx="1128" cy="715" r="7" fill="#E8A857"/>
+  <text x="1148" y="720" font-size="17"
+        font-weight="650" fill="#F1F5F9">
+    Decision Intelligence
+  </text>
+  <text x="1128" y="750" font-size="12" fill="#81929F">
+    Strategy • Analytics • Business impact
+  </text>
+
+</g>
+
+<!-- FOOTER -->
+<line x1="90" y1="850" x2="1510" y2="850"
+      stroke="#172630"/>
+
+<text x="90" y="875"
+      class="mono"
+      font-size="11"
+      fill="#50616D">
+  NUR A ALAM
+</text>
+
+<text x="1320" y="875"
+      class="mono"
+      font-size="11"
+      fill="#50616D">
+  DATA SCIENCE • AI • ANALYTICS
+</text>
+
 </svg>
