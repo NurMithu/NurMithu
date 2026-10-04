@@ -23,15 +23,32 @@ I'm a **Data Scientist** (Postgraduate Diploma in Data Science candidate) who bu
 
 > **My rule:** a high score means nothing without a baseline, a business interpretation, and honest limitations.
 
-```python
-class NurAAlam:
-    role      = "Data Scientist | ML | Business Analytics"
-    stack     = ["Python", "SQL", "pandas", "scikit-learn", "XGBoost", "statsmodels", "PyTorch"]
-    ships     = ["Streamlit apps", "Dockerized models", "MLflow-tracked experiments"]
-    principle = "Baseline first. Business impact always."
-    exploring = ["MLOps", "RAG", "LLM apps", "AI agents"]
-    available = "Remote data science / ML projects"
-```
+<table align="center">
+<tr>
+<td><b>🎯 Role</b></td>
+<td>Data Scientist · ML · Business Analytics</td>
+</tr>
+<tr>
+<td><b>🛠️ Stack</b></td>
+<td>Python · SQL · pandas · scikit-learn · XGBoost · statsmodels · PyTorch</td>
+</tr>
+<tr>
+<td><b>🚀 Ships</b></td>
+<td>Streamlit apps · Dockerized models · MLflow-tracked experiments</td>
+</tr>
+<tr>
+<td><b>💡 Principle</b></td>
+<td>Baseline first. Business impact always.</td>
+</tr>
+<tr>
+<td><b>🔭 Exploring</b></td>
+<td>MLOps · RAG · LLM apps · AI agents</td>
+</tr>
+<tr>
+<td><b>🌍 Available</b></td>
+<td>Remote data science / ML projects</td>
+</tr>
+</table>
 
 ---
 
