@@ -1,3 +1,6 @@
+Absolutely. Below is **one complete HTML block**. You can copy everything from `<!DOCTYPE html>` to `</html>` and paste it directly into a new `.html` file.
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +20,6 @@
   --line:#263449;
   --blue:#38BDF8;
   --cyan:#22D3EE;
-  --navy:#0F172A;
   --max:1180px;
 }
 
@@ -58,68 +60,35 @@ a{
   overflow:hidden;
   display:flex;
   align-items:center;
-
   background:
-    radial-gradient(
-      circle at 15% 25%,
-      rgba(56,189,248,.18) 0,
-      transparent 28%
-    ),
-    radial-gradient(
-      circle at 85% 70%,
-      rgba(34,211,238,.13) 0,
-      transparent 30%
-    ),
-    radial-gradient(
-      circle at 52% 45%,
-      rgba(30,64,175,.12) 0,
-      transparent 35%
-    ),
-    linear-gradient(
-      125deg,
-      #080C12,
-      #0F172A 52%,
-      #111827
-    );
-
+    radial-gradient(circle at 15% 25%,#164E63 0,transparent 28%),
+    radial-gradient(circle at 85% 70%,#172554 0,transparent 30%),
+    linear-gradient(125deg,#070B11,#0F172A 50%,#172033);
   border-bottom:1px solid var(--line);
 }
 
 .hero-grid{
   position:absolute;
   inset:0;
-  opacity:.16;
-
+  opacity:.18;
   background-image:
-    linear-gradient(
-      rgba(56,189,248,.20) 1px,
-      transparent 1px
-    ),
-    linear-gradient(
-      90deg,
-      rgba(56,189,248,.20) 1px,
-      transparent 1px
-    );
-
+    linear-gradient(#38bdf81a 1px,transparent 1px),
+    linear-gradient(90deg,#38bdf81a 1px,transparent 1px);
   background-size:46px 46px;
-
-  -webkit-mask-image:
-    linear-gradient(
-      90deg,
-      transparent,
-      #000 20%,
-      #000 80%,
-      transparent
-    );
-
-  mask-image:
-    linear-gradient(
-      90deg,
-      transparent,
-      #000 20%,
-      #000 80%,
-      transparent
-    );
+  -webkit-mask-image:linear-gradient(
+    90deg,
+    transparent,
+    #000 20%,
+    #000 80%,
+    transparent
+  );
+  mask-image:linear-gradient(
+    90deg,
+    transparent,
+    #000 20%,
+    #000 80%,
+    transparent
+  );
 }
 
 .hero-glow{
@@ -129,18 +98,14 @@ a{
   left:-45%;
   top:-25%;
   transform:rotate(18deg);
-
-  background:
-    linear-gradient(
-      90deg,
-      transparent,
-      rgba(56,189,248,.25),
-      rgba(34,211,238,.18),
-      transparent
-    );
-
+  background:linear-gradient(
+    90deg,
+    transparent,
+    #38bdf84d,
+    #22d3ee26,
+    transparent
+  );
   filter:blur(16px);
-
   animation:sweep 9s ease-in-out infinite;
 }
 
@@ -149,16 +114,13 @@ a{
     left:-45%;
     opacity:0;
   }
-
   35%{
     opacity:1;
   }
-
   75%{
     left:120%;
-    opacity:.6;
+    opacity:.5;
   }
-
   100%{
     left:135%;
     opacity:0;
@@ -171,16 +133,9 @@ a{
   height:180px;
   left:-7%;
   bottom:-125px;
-
-  border-top:1px solid rgba(56,189,248,.25);
+  border-top:1px solid #38bdf833;
   border-radius:50%;
-
-  background:
-    linear-gradient(
-      rgba(56,189,248,.06),
-      transparent
-    );
-
+  background:linear-gradient(#38bdf812,transparent);
   transform:rotate(-2deg);
 }
 
@@ -206,9 +161,6 @@ a{
   line-height:1;
   letter-spacing:-3px;
   font-weight:800;
-
-  text-shadow:
-    0 0 35px rgba(56,189,248,.12);
 }
 
 .hero h1 span{
@@ -219,21 +171,15 @@ a{
   width:210px;
   height:2px;
   margin:22px auto;
-
-  background:
-    linear-gradient(
-      90deg,
-      transparent,
-      var(--cyan),
-      var(--blue),
-      transparent
-    );
-
+  background:linear-gradient(
+    90deg,
+    transparent,
+    var(--cyan),
+    var(--blue),
+    transparent
+  );
   position:relative;
   overflow:hidden;
-
-  box-shadow:
-    0 0 14px rgba(34,211,238,.45);
 }
 
 .hero-line:after{
@@ -243,11 +189,8 @@ a{
   top:0;
   width:35%;
   height:100%;
-
   background:#fff;
-
   filter:blur(2px);
-
   animation:lineMove 3.5s linear infinite;
 }
 
@@ -264,19 +207,16 @@ a{
 }
 
 .hero-role strong{
-  color:#F8FAFC;
+  color:#fff;
 }
 
 .hero-meta{
   margin-top:25px;
-
   display:flex;
   justify-content:center;
   gap:18px;
   flex-wrap:wrap;
-
   color:var(--muted);
-
   font-size:12px;
   letter-spacing:1.5px;
   text-transform:uppercase;
@@ -288,44 +228,35 @@ a{
   color:var(--cyan);
 }
 
-
 /* =========================
-   HERO DATA MOTIFS
+   HERO DATA GRAPHICS
 ========================= */
 
 .chart,
 .ring{
   position:absolute;
   z-index:2;
-  opacity:.45;
+  opacity:.5;
   pointer-events:none;
 }
 
 .chart{
   left:6%;
   bottom:20%;
-
   width:150px;
   height:90px;
-
-  border-left:1px solid rgba(56,189,248,.55);
-  border-bottom:1px solid rgba(56,189,248,.55);
+  border-left:1px solid #38bdf899;
+  border-bottom:1px solid #38bdf899;
 }
 
 .bar{
   position:absolute;
   bottom:0;
   width:14px;
-
-  background:
-    linear-gradient(
-      var(--cyan),
-      rgba(30,64,175,.45)
-    );
-
-  box-shadow:
-    0 0 12px rgba(34,211,238,.2);
-
+  background:linear-gradient(
+    var(--cyan),
+    #155E75
+  );
   animation:barPulse 3s ease-in-out infinite;
 }
 
@@ -367,23 +298,17 @@ a{
 .ring{
   right:7%;
   top:25%;
-
   width:105px;
   height:105px;
-
-  border:1px solid rgba(56,189,248,.6);
+  border:1px solid #38bdf899;
   border-radius:50%;
-
-  box-shadow:
-    0 0 28px rgba(56,189,248,.08);
 }
 
 .ring:before,
 .ring:after{
   content:"";
   position:absolute;
-
-  border:1px solid rgba(34,211,238,.45);
+  border:1px solid #22d3ee66;
   border-radius:50%;
 }
 
@@ -395,7 +320,6 @@ a{
   inset:31px;
 }
 
-
 /* =========================
    NAVIGATION
 ========================= */
@@ -404,18 +328,13 @@ nav{
   position:sticky;
   top:0;
   z-index:20;
-
-  background:
-    rgba(11,15,20,.90);
-
+  background:#0B0F14ee;
   backdrop-filter:blur(14px);
-
   border-bottom:1px solid var(--line);
 }
 
 .nav-inner{
   min-height:58px;
-
   display:flex;
   align-items:center;
   justify-content:space-between;
@@ -424,7 +343,10 @@ nav{
 .brand{
   font-weight:800;
   letter-spacing:1px;
-  color:#E2E8F0;
+}
+
+.brand span{
+  color:var(--cyan);
 }
 
 .nav-links{
@@ -439,12 +361,8 @@ nav{
 }
 
 .nav-links a:hover{
-  color:var(--blue);
-
-  text-shadow:
-    0 0 12px rgba(56,189,248,.35);
+  color:var(--cyan);
 }
-
 
 /* =========================
    SECTIONS
@@ -461,13 +379,10 @@ section{
 
 .kicker{
   color:var(--cyan);
-
   font-size:11px;
   font-weight:700;
   letter-spacing:3px;
-
   text-transform:uppercase;
-
   margin-bottom:8px;
 }
 
@@ -482,7 +397,6 @@ h2{
   color:var(--muted);
   margin-top:15px;
 }
-
 
 /* =========================
    ABOUT
@@ -505,18 +419,13 @@ h2{
 
 .fact-card{
   border:1px solid var(--line);
-
-  background:
-    linear-gradient(
-      145deg,
-      rgba(23,32,51,.95),
-      rgba(13,20,32,.95)
-    );
-
+  background:linear-gradient(
+    145deg,
+    var(--surface2),
+    var(--surface)
+  );
   padding:28px;
-
-  box-shadow:
-    0 15px 40px rgba(0,0,0,.18);
+  box-shadow:0 20px 60px #0005;
 }
 
 .fact{
@@ -531,7 +440,6 @@ h2{
 .fact b{
   display:block;
   color:#E2E8F0;
-
   font-size:13px;
   margin-bottom:3px;
 }
@@ -541,7 +449,6 @@ h2{
   font-size:13px;
 }
 
-
 /* =========================
    RESULTS
 ========================= */
@@ -549,77 +456,39 @@ h2{
 .results{
   display:grid;
   grid-template-columns:repeat(4,1fr);
-  gap:14px;
+  gap:16px;
 }
 
 .result{
-  min-height:175px;
-  padding:24px;
-
-  background:
-    linear-gradient(
-      145deg,
-      #111827,
-      #0D1522
-    );
-
   border:1px solid var(--line);
-
-  transition:.25s;
-
-  position:relative;
-  overflow:hidden;
-}
-
-.result:before{
-  content:"";
-
-  position:absolute;
-  left:0;
-  top:0;
-
-  width:100%;
-  height:2px;
-
-  background:
-    linear-gradient(
-      90deg,
-      var(--blue),
-      var(--cyan),
-      transparent
-    );
-
-  opacity:.65;
+  background:linear-gradient(
+    145deg,
+    #111827,
+    #0D1420
+  );
+  padding:28px;
+  min-height:170px;
+  transition:.3s;
 }
 
 .result:hover{
   transform:translateY(-5px);
-
-  border-color:
-    rgba(56,189,248,.55);
-
-  box-shadow:
-    0 14px 35px rgba(8,145,178,.12);
+  border-color:#38bdf866;
+  box-shadow:0 15px 45px #0006;
 }
 
 .result-number{
-  font-size:32px;
+  font-size:40px;
   font-weight:800;
-  letter-spacing:-1px;
-  color:var(--blue);
+  color:var(--cyan);
+  letter-spacing:-2px;
 }
 
 .result-title{
-  font-weight:700;
-  margin:8px 0;
-  color:#E2E8F0;
-}
-
-.result p{
+  margin-top:6px;
+  color:#CBD5E1;
   font-size:13px;
-  color:var(--muted);
 }
-
 
 /* =========================
    PROJECTS
@@ -632,114 +501,77 @@ h2{
 }
 
 .project{
-  background:
-    linear-gradient(
-      145deg,
-      #111827,
-      #0C1420
-    );
-
   border:1px solid var(--line);
-
+  background:linear-gradient(
+    145deg,
+    #111827,
+    #0D1420
+  );
   padding:30px;
-
-  transition:.25s;
-
   position:relative;
   overflow:hidden;
+  transition:.3s;
 }
 
-.project:after{
+.project:before{
   content:"";
-
   position:absolute;
-
-  width:120px;
-  height:120px;
-
-  right:-70px;
-  top:-70px;
-
-  border-radius:50%;
-
-  background:
-    rgba(34,211,238,.08);
-
-  filter:blur(5px);
+  left:0;
+  top:0;
+  width:100%;
+  height:2px;
+  background:linear-gradient(
+    90deg,
+    var(--blue),
+    var(--cyan),
+    transparent
+  );
 }
 
 .project:hover{
   transform:translateY(-5px);
-
-  border-color:
-    rgba(56,189,248,.55);
-
-  box-shadow:
-    0 16px 40px rgba(8,145,178,.10);
+  border-color:#38bdf866;
 }
 
 .project-number{
-  color:var(--blue);
-
   font-size:12px;
-  letter-spacing:2px;
+  color:var(--cyan);
+  letter-spacing:3px;
 }
 
 .project h3{
-  font-size:22px;
+  font-size:24px;
   margin:10px 0;
-  color:#F8FAFC;
 }
 
 .project p{
   color:var(--muted);
   font-size:14px;
-  margin-bottom:18px;
 }
 
 .tags{
   display:flex;
   flex-wrap:wrap;
   gap:7px;
-  margin-bottom:20px;
+  margin-top:20px;
 }
 
 .tag{
-  padding:5px 9px;
-
-  border:1px solid #2B3A50;
-
-  background:#0E1726;
-
-  color:#AFC4D8;
-
   font-size:11px;
-
-  border-radius:3px;
-}
-
-.tag:hover{
-  border-color:
-    rgba(56,189,248,.6);
-
-  color:var(--cyan);
+  color:#BAE6FD;
+  border:1px solid #38bdf844;
+  background:#0EA5E91a;
+  padding:5px 9px;
+  border-radius:999px;
 }
 
 .project-link{
-  font-size:12px;
-  font-weight:700;
-
-  color:var(--blue);
-
-  letter-spacing:1px;
-
-  transition:.2s;
-}
-
-.project-link:hover{
+  display:inline-block;
+  margin-top:20px;
   color:var(--cyan);
+  font-size:13px;
+  font-weight:700;
 }
-
 
 /* =========================
    WORKFLOW
@@ -747,49 +579,32 @@ h2{
 
 .workflow{
   display:grid;
-  grid-template-columns:repeat(4,1fr);
-  gap:1px;
-
-  background:var(--line);
-
-  border:1px solid var(--line);
+  grid-template-columns:repeat(5,1fr);
+  gap:12px;
 }
 
 .step{
-  background:#101927;
-  padding:25px;
-
-  transition:.25s;
-}
-
-.step:hover{
-  background:#132238;
-
-  box-shadow:
-    inset 0 0 0 1px
-    rgba(56,189,248,.25);
+  border:1px solid var(--line);
+  background:var(--surface);
+  padding:22px;
+  position:relative;
 }
 
 .step-number{
-  color:var(--cyan);
-
   font-size:11px;
+  color:var(--cyan);
   letter-spacing:2px;
 }
 
 .step h3{
-  margin:8px 0;
-
-  font-size:17px;
-
-  color:#E2E8F0;
+  font-size:16px;
+  margin:12px 0 6px;
 }
 
 .step p{
+  font-size:12px;
   color:var(--muted);
-  font-size:13px;
 }
-
 
 /* =========================
    TECHNOLOGY STACK
@@ -801,29 +616,10 @@ h2{
   gap:10px;
 }
 
-.stack span{
-  padding:10px 14px;
-
-  border:1px solid #2B3A50;
-
-  background:#101927;
-
-  color:#B8C7D8;
-
-  font-size:13px;
-
-  transition:.2s;
+.stack .tag{
+  padding:9px 13px;
+  font-size:12px;
 }
-
-.stack span:hover{
-  border-color:
-    rgba(56,189,248,.55);
-
-  color:var(--cyan);
-
-  transform:translateY(-2px);
-}
-
 
 /* =========================
    ROADMAP
@@ -831,123 +627,85 @@ h2{
 
 .roadmap{
   display:grid;
-  gap:10px;
-  max-width:800px;
+  grid-template-columns:repeat(4,1fr);
+  gap:14px;
 }
 
 .road{
-  display:flex;
-
-  gap:18px;
-
-  align-items:center;
-
-  padding:17px 20px;
-
-  background:#101927;
-
-  border:1px solid var(--line);
-
-  transition:.2s;
-}
-
-.road:hover{
-  border-color:
-    rgba(56,189,248,.45);
-
-  transform:translateX(3px);
+  border-left:2px solid var(--line);
+  padding:20px 20px 20px 24px;
+  background:linear-gradient(
+    145deg,
+    #111827,
+    #0D1420
+  );
 }
 
 .road-status{
-  width:70px;
-
   color:var(--cyan);
-
   font-size:11px;
-  font-weight:700;
-  letter-spacing:1px;
+  font-weight:800;
+  letter-spacing:2px;
+  text-transform:uppercase;
 }
 
-.road strong{
-  font-size:14px;
-  color:#E2E8F0;
+.road h3{
+  margin:8px 0;
 }
 
-.road span{
-  color:var(--muted);
+.road p{
   font-size:13px;
+  color:var(--muted);
 }
-
 
 /* =========================
    CONTACT
 ========================= */
 
 .contact{
-  text-align:center;
-
-  padding:100px 20px;
-
-  background:
-    radial-gradient(
-      circle at 50% 0%,
-      rgba(56,189,248,.13),
-      transparent 35%
-    ),
-    linear-gradient(
-      145deg,
-      #111827,
-      #070B11
-    );
-}
-
-.contact h2{
-  margin-bottom:15px;
-}
-
-.contact p{
-  color:var(--muted);
-
-  max-width:650px;
-
-  margin:
-    0 auto 28px;
+  display:grid;
+  grid-template-columns:1fr .8fr;
+  gap:30px;
+  align-items:center;
 }
 
 .cta{
-  display:inline-flex;
+  border:1px solid #38bdf866;
+  background:linear-gradient(
+    135deg,
+    #0C2534,
+    #101827
+  );
+  padding:38px;
+}
 
-  padding:13px 21px;
+.cta h3{
+  font-size:30px;
+}
 
-  border:
-    1px solid
-    rgba(56,189,248,.65);
+.cta p{
+  color:var(--muted);
+  margin:10px 0 20px;
+}
 
-  color:#E0F2FE;
-
-  background:
-    rgba(14,165,233,.07);
-
-  font-size:12px;
-  font-weight:700;
-
-  letter-spacing:1px;
-
+.cta a{
+  display:inline-block;
+  background:linear-gradient(
+    90deg,
+    var(--blue),
+    var(--cyan)
+  );
+  color:#061018;
+  padding:12px 18px;
+  font-weight:800;
+  border-radius:6px;
   transition:.25s;
 }
 
-.cta:hover{
-  background:var(--blue);
-
-  border-color:var(--blue);
-
-  color:#07111C;
-
-  box-shadow:
-    0 0 25px
-    rgba(56,189,248,.28);
+.cta a:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 30px #22d3ee33;
 }
-
 
 /* =========================
    FOOTER
@@ -955,20 +713,16 @@ h2{
 
 footer{
   padding:28px 0;
-
-  color:#64748B;
-
+  color:var(--dim);
   font-size:12px;
 }
 
 .footer-inner{
   display:flex;
-
   justify-content:space-between;
-
   gap:20px;
+  flex-wrap:wrap;
 }
-
 
 /* =========================
    RESPONSIVE
@@ -977,7 +731,7 @@ footer{
 @media(max-width:900px){
 
   .about-grid,
-  .projects{
+  .contact{
     grid-template-columns:1fr;
   }
 
@@ -989,62 +743,81 @@ footer{
     grid-template-columns:repeat(2,1fr);
   }
 
+  .roadmap{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media(max-width:650px){
+
+  .nav-inner{
+    padding:12px 0;
+    align-items:flex-start;
+    gap:12px;
+  }
+
+  .nav-links{
+    gap:10px;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+  }
+
+  .nav-links a{
+    font-size:11px;
+  }
+
+  .hero{
+    min-height:520px;
+  }
+
   .chart{
     left:2%;
-    opacity:.5;
+    transform:scale(.75);
+    transform-origin:left bottom;
   }
 
   .ring{
     right:2%;
-    opacity:.5;
-  }
-}
-
-@media(max-width:620px){
-
-  .nav-links{
-    display:none;
+    transform:scale(.75);
+    transform-origin:right top;
   }
 
   section{
-    padding:60px 0;
+    padding:65px 0;
   }
 
   .results,
-  .workflow{
+  .projects,
+  .workflow,
+  .roadmap{
     grid-template-columns:1fr;
-  }
-
-  .hero{
-    min-height:430px;
   }
 
   .hero h1{
     letter-spacing:-2px;
   }
 
-  .hero-meta{
-    display:none;
-  }
-
-  .chart,
-  .ring{
-    display:none;
-  }
-
-  .footer-inner{
-    flex-direction:column;
+  .hero-content{
+    padding:80px 16px;
   }
 }
 
 @media(prefers-reduced-motion:reduce){
 
-  *,
-  *:before,
-  *:after{
-    animation:none!important;
-    scroll-behavior:auto!important;
-    transition:none!important;
+  html{
+    scroll-behavior:auto;
+  }
+
+  .hero-glow,
+  .hero-line:after,
+  .bar{
+    animation:none;
+  }
+
+  .result,
+  .project,
+  .cta a{
+    transition:none;
   }
 }
 </style>
@@ -1052,24 +825,18 @@ footer{
 
 <body>
 
-<!-- =========================
-     HERO
-========================= -->
-
-<header class="hero" id="top">
+<header class="hero" id="home">
 
   <div class="hero-grid"></div>
-
   <div class="hero-glow"></div>
-
   <div class="hero-wave"></div>
 
   <div class="chart" aria-hidden="true">
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
   </div>
 
   <div class="ring" aria-hidden="true"></div>
@@ -1077,491 +844,269 @@ footer{
   <div class="hero-content">
 
     <div class="eyebrow">
-      Data • Intelligence • Strategy
+      Data • AI • Business Analytics
     </div>
 
     <h1>
-      Nur-A-<span>Alam</span>
+      Nur A <span>Alam</span>
     </h1>
 
     <div class="hero-line"></div>
 
-    <div class="hero-role">
-      <strong>Data Scientist</strong>
-      ·
-      <strong>Machine Learning</strong>
-      ·
-      <strong>Business Analytics</strong>
-    </div>
+    <p class="hero-role">
+      <strong>Data Scientist</strong> • Machine Learning • Business Intelligence
+    </p>
 
     <div class="hero-meta">
-      <span>Python & SQL</span>
-      <span>Production ML</span>
-      <span>Business Impact</span>
-      <span>Remote Projects</span>
+      <span>Data Strategy</span>
+      <span>AI Solutions</span>
+      <span>Business Analytics</span>
     </div>
 
   </div>
-
 </header>
 
-
-<!-- =========================
-     NAVIGATION
-========================= -->
-
 <nav>
-
   <div class="container nav-inner">
 
-    <a class="brand" href="#top">
-      NUR A ALAM
+    <a href="#home" class="brand">
+      NUR A <span>ALAM</span>
     </a>
 
     <div class="nav-links">
-
-      <a href="#about">
-        About
-      </a>
-
-      <a href="#results">
-        Results
-      </a>
-
-      <a href="#projects">
-        Projects
-      </a>
-
-      <a href="#workflow">
-        How I Work
-      </a>
-
-      <a href="#contact">
-        Contact
-      </a>
-
+      <a href="#about">About</a>
+      <a href="#results">Results</a>
+      <a href="#projects">Projects</a>
+      <a href="#workflow">Workflow</a>
+      <a href="#stack">Technology</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#contact">Contact</a>
     </div>
 
   </div>
-
 </nav>
-
-
-<!-- =========================
-     MAIN
-========================= -->
 
 <main>
 
-
-<!-- =========================
-     ABOUT
-========================= -->
-
 <section id="about">
-
   <div class="container">
 
     <div class="section-head">
-
-      <div class="kicker">
-        01 / Profile
-      </div>
-
-      <h2>
-        Data science built around<br>
-        real business decisions.
-      </h2>
-
+      <div class="kicker">01 — Profile</div>
+      <h2>Data with purpose.<br>Intelligence with impact.</h2>
       <p class="lead">
-        I build end-to-end, production-style machine learning and analytics projects—from raw data and statistical analysis to modeling, evaluation, interpretation and deployment.
+        Transforming complex data into practical intelligence,
+        scalable analytics systems and measurable business outcomes.
       </p>
-
     </div>
-
 
     <div class="about-grid">
 
       <div class="about-copy">
 
         <p>
-          I’m a
-          <strong>Data Scientist</strong>
-          focused on turning complex datasets into practical, measurable outcomes.
+          I work at the intersection of
+          <strong>data science, artificial intelligence,
+          machine learning and business strategy</strong>.
         </p>
 
         <p>
-          My approach is deliberately pragmatic:
-          <strong>
-            baseline first, choose the right metric, avoid leakage, translate results into business language, and document limitations.
-          </strong>
+          My focus is not simply building models.
+          I design analytical solutions that connect
+          data, technology and decision-making.
         </p>
 
         <p>
-          I’m particularly interested in machine learning, business analytics, MLOps, RAG applications and AI-driven decision systems.
+          From data preparation and exploratory analysis
+          to predictive modelling, visualization and
+          strategic insight, every solution is designed
+          around a clear business objective.
         </p>
 
       </div>
 
-
-      <aside class="fact-card">
+      <div class="fact-card">
 
         <div class="fact">
-          <b>Role</b>
-          <span>
-            Data Scientist · ML · Business Analytics
-          </span>
+          <b>Core Focus</b>
+          <span>Data Science &amp; AI</span>
         </div>
 
         <div class="fact">
-          <b>Core Stack</b>
-          <span>
-            Python · SQL · pandas · scikit-learn · XGBoost
-          </span>
+          <b>Specialization</b>
+          <span>Machine Learning &amp; Analytics</span>
         </div>
 
         <div class="fact">
-          <b>Ships</b>
-          <span>
-            Streamlit apps · Dockerized models · MLflow experiments
-          </span>
+          <b>Business Value</b>
+          <span>Decision Intelligence</span>
         </div>
 
         <div class="fact">
-          <b>Principle</b>
-          <span>
-            Baseline first. Business impact always.
-          </span>
+          <b>Approach</b>
+          <span>Evidence-driven &amp; scalable</span>
         </div>
 
-        <div class="fact">
-          <b>Exploring</b>
-          <span>
-            MLOps · RAG · LLM apps · AI agents
-          </span>
-        </div>
-
-      </aside>
+      </div>
 
     </div>
 
   </div>
-
 </section>
 
-
-<!-- =========================
-     RESULTS
-========================= -->
-
 <section id="results">
-
   <div class="container">
 
     <div class="section-head">
-
-      <div class="kicker">
-        02 / Results
-      </div>
-
-      <h2>
-        Evidence over buzzwords.
-      </h2>
-
+      <div class="kicker">02 — Results</div>
+      <h2>Turning information<br>into decisions.</h2>
       <p class="lead">
-        Selected project outcomes from the portfolio.
+        A practical approach focused on measurable value,
+        analytical clarity and business outcomes.
       </p>
-
     </div>
-
 
     <div class="results">
 
-      <article class="result">
-
-        <div class="result-number">
-          0.789
-        </div>
-
+      <div class="result">
+        <div class="result-number">01</div>
         <div class="result-title">
-          Churn ROC AUC
+          Data-driven strategic insights
         </div>
+      </div>
 
-        <p>
-          Threshold tuned for early-warning retention outreach.
-        </p>
-
-      </article>
-
-
-      <article class="result">
-
-        <div class="result-number">
-          0.926
-        </div>
-
+      <div class="result">
+        <div class="result-number">02</div>
         <div class="result-title">
-          Forecasting R²
+          Predictive analytical solutions
         </div>
+      </div>
 
-        <p>
-          XGBoost performance on a time-based retail holdout.
-        </p>
-
-      </article>
-
-
-      <article class="result">
-
-        <div class="result-number">
-          85%
-        </div>
-
+      <div class="result">
+        <div class="result-number">03</div>
         <div class="result-title">
-          Fraud Precision
+          Automated intelligence workflows
         </div>
+      </div>
 
-        <p>
-          85% precision at 85% recall on an imbalanced dataset.
-        </p>
-
-      </article>
-
-
-      <article class="result">
-
-        <div class="result-number">
-          0.714
-        </div>
-
+      <div class="result">
+        <div class="result-number">04</div>
         <div class="result-title">
-          Sentiment Macro F1
+          Executive-ready reporting
         </div>
-
-        <p>
-          Approximately 39% above the stated rule-based baseline.
-        </p>
-
-      </article>
+      </div>
 
     </div>
 
   </div>
-
 </section>
 
-
-<!-- =========================
-     PROJECTS
-========================= -->
-
 <section id="projects">
-
   <div class="container">
 
     <div class="section-head">
-
-      <div class="kicker">
-        03 / Selected Work
-      </div>
-
-      <h2>
-        Projects with a business reason.
-      </h2>
-
+      <div class="kicker">03 — Selected Work</div>
+      <h2>Projects built around<br>real-world problems.</h2>
     </div>
-
 
     <div class="projects">
 
-
-      <!-- PROJECT 01 -->
-
       <article class="project">
 
-        <div class="project-number">
-          PROJECT 01
-        </div>
+        <div class="project-number">PROJECT 01</div>
 
-        <h3>
-          Customer Churn & Lifetime Value
-        </h3>
+        <h3>Business Intelligence</h3>
 
         <p>
-          Predicts churn and estimates customer lifetime value for a subscription retail business, with business-oriented threshold optimization.
+          Analytical dashboards and reporting systems
+          designed to transform operational data into
+          clear executive-level insights.
         </p>
 
         <div class="tags">
-
-          <span class="tag">
-            Python
-          </span>
-
-          <span class="tag">
-            pandas
-          </span>
-
-          <span class="tag">
-            scikit-learn
-          </span>
-
-          <span class="tag">
-            statsmodels
-          </span>
-
+          <span class="tag">Power BI</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Data Analytics</span>
+          <span class="tag">Dashboarding</span>
         </div>
 
-        <a
-          class="project-link"
-          href="https://github.com/NurMithu/Zephyr_Retail_Churn_CLV_Analysis"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          VIEW REPOSITORY →
+        <a class="project-link" href="#contact">
+          Explore project →
         </a>
 
       </article>
 
-
-      <!-- PROJECT 02 -->
-
       <article class="project">
 
-        <div class="project-number">
-          PROJECT 02
-        </div>
+        <div class="project-number">PROJECT 02</div>
 
-        <h3>
-          Retail Sales Forecasting
-        </h3>
+        <h3>Predictive Analytics</h3>
 
         <p>
-          Compared Linear Regression, Random Forest and XGBoost using a time-based holdout, with promotion-impact analysis.
+          Machine learning workflows designed to identify
+          patterns, predict outcomes and support
+          data-informed decisions.
         </p>
 
         <div class="tags">
-
-          <span class="tag">
-            Python
-          </span>
-
-          <span class="tag">
-            XGBoost
-          </span>
-
-          <span class="tag">
-            Random Forest
-          </span>
-
-          <span class="tag">
-            Streamlit
-          </span>
-
+          <span class="tag">Python</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Statistics</span>
+          <span class="tag">Predictive Modeling</span>
         </div>
 
-        <a
-          class="project-link"
-          href="https://github.com/NurMithu/sales-forecasting-rossmann"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          VIEW REPOSITORY →
+        <a class="project-link" href="#contact">
+          Explore project →
         </a>
 
       </article>
 
-
-      <!-- PROJECT 03 -->
-
       <article class="project">
 
-        <div class="project-number">
-          PROJECT 03
-        </div>
+        <div class="project-number">PROJECT 03</div>
 
-        <h3>
-          Credit Card Fraud Detection
-        </h3>
+        <h3>AI &amp; Automation</h3>
 
         <p>
-          Imbalanced classification and unsupervised anomaly detection, calibrated around precision and recall rather than accuracy.
+          Intelligent workflows combining automation,
+          artificial intelligence and structured data
+          processes to improve efficiency.
         </p>
 
         <div class="tags">
-
-          <span class="tag">
-            scikit-learn
-          </span>
-
-          <span class="tag">
-            XGBoost
-          </span>
-
-          <span class="tag">
-            SMOTE
-          </span>
-
-          <span class="tag">
-            Autoencoders
-          </span>
-
+          <span class="tag">AI</span>
+          <span class="tag">Automation</span>
+          <span class="tag">Python</span>
+          <span class="tag">APIs</span>
         </div>
 
-        <a
-          class="project-link"
-          href="https://github.com/NurMithu/fraud-detection"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          VIEW REPOSITORY →
+        <a class="project-link" href="#contact">
+          Explore project →
         </a>
 
       </article>
 
-
-      <!-- PROJECT 04 -->
-
       <article class="project">
 
-        <div class="project-number">
-          PROJECT 04
-        </div>
+        <div class="project-number">PROJECT 04</div>
 
-        <h3>
-          Customer Sentiment Analysis
-        </h3>
+        <h3>Strategic Analytics</h3>
 
         <p>
-          Rule-based baseline versus TF-IDF and trained classifiers, combined with complaint root-cause analysis.
+          Data-driven frameworks that connect analytical
+          findings with strategic planning, performance
+          measurement and organizational priorities.
         </p>
 
         <div class="tags">
-
-          <span class="tag">
-            NLTK
-          </span>
-
-          <span class="tag">
-            TF-IDF
-          </span>
-
-          <span class="tag">
-            scikit-learn
-          </span>
-
-          <span class="tag">
-            Streamlit
-          </span>
-
+          <span class="tag">Strategy</span>
+          <span class="tag">Analytics</span>
+          <span class="tag">KPIs</span>
+          <span class="tag">Decision Support</span>
         </div>
 
-        <a
-          class="project-link"
-          href="https://github.com/NurMithu/sentiment-analysis"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          VIEW REPOSITORY →
+        <a class="project-link" href="#contact">
+          Explore project →
         </a>
 
       </article>
@@ -1569,382 +1114,206 @@ footer{
     </div>
 
   </div>
-
 </section>
 
-
-<!-- =========================
-     WORKFLOW
-========================= -->
-
 <section id="workflow">
-
   <div class="container">
 
     <div class="section-head">
-
-      <div class="kicker">
-        04 / Method
-      </div>
-
-      <h2>
-        A disciplined path from data to decision.
-      </h2>
-
-      <p class="lead">
-        Technical rigor and business interpretation stay connected.
-      </p>
-
+      <div class="kicker">04 — Workflow</div>
+      <h2>From raw data<br>to business value.</h2>
     </div>
-
 
     <div class="workflow">
 
-
-      <article class="step">
-
-        <div class="step-number">
-          01
-        </div>
-
-        <h3>
-          Understand
-        </h3>
-
+      <div class="step">
+        <div class="step-number">01</div>
+        <h3>Discover</h3>
         <p>
-          Define the business question, data and success criteria.
+          Understand the business problem,
+          objectives and available data.
         </p>
+      </div>
 
-      </article>
-
-
-      <article class="step">
-
-        <div class="step-number">
-          02
-        </div>
-
-        <h3>
-          Explore
-        </h3>
-
+      <div class="step">
+        <div class="step-number">02</div>
+        <h3>Prepare</h3>
         <p>
-          Profile data, identify patterns, quality issues and leakage.
+          Clean, structure and transform data
+          into analysis-ready information.
         </p>
+      </div>
 
-      </article>
-
-
-      <article class="step">
-
-        <div class="step-number">
-          03
-        </div>
-
-        <h3>
-          Model
-        </h3>
-
+      <div class="step">
+        <div class="step-number">03</div>
+        <h3>Analyze</h3>
         <p>
-          Establish a baseline before testing more sophisticated models.
+          Identify patterns, trends,
+          relationships and opportunities.
         </p>
+      </div>
 
-      </article>
-
-
-      <article class="step">
-
-        <div class="step-number">
-          04
-        </div>
-
-        <h3>
-          Evaluate
-        </h3>
-
+      <div class="step">
+        <div class="step-number">04</div>
+        <h3>Model</h3>
         <p>
-          Use metrics that reflect the actual cost of business errors.
+          Develop analytical and machine
+          learning solutions where appropriate.
         </p>
+      </div>
 
-      </article>
-
-
-      <article class="step">
-
-        <div class="step-number">
-          05
-        </div>
-
-        <h3>
-          Interpret
-        </h3>
-
+      <div class="step">
+        <div class="step-number">05</div>
+        <h3>Deliver</h3>
         <p>
-          Translate model outputs into clear business recommendations.
+          Communicate insights through
+          dashboards, reports and decisions.
         </p>
-
-      </article>
-
-
-      <article class="step">
-
-        <div class="step-number">
-          06
-        </div>
-
-        <h3>
-          Deploy
-        </h3>
-
-        <p>
-          Package useful models and analytics into practical applications.
-        </p>
-
-      </article>
-
-
-      <article class="step">
-
-        <div class="step-number">
-          07
-        </div>
-
-        <h3>
-          Monitor
-        </h3>
-
-        <p>
-          Track assumptions, limitations, performance and failure modes.
-        </p>
-
-      </article>
-
-
-      <article class="step">
-
-        <div class="step-number">
-          08
-        </div>
-
-        <h3>
-          Improve
-        </h3>
-
-        <p>
-          Iterate based on evidence, user needs and measurable impact.
-        </p>
-
-      </article>
+      </div>
 
     </div>
 
   </div>
-
 </section>
 
-
-<!-- =========================
-     TECHNOLOGY
-========================= -->
-
-<section>
-
+<section id="stack">
   <div class="container">
 
     <div class="section-head">
-
-      <div class="kicker">
-        05 / Technology
-      </div>
-
-      <h2>
-        Tools I work with.
-      </h2>
-
+      <div class="kicker">05 — Technology</div>
+      <h2>Technology stack.</h2>
+      <p class="lead">
+        A flexible toolkit for analytics, artificial
+        intelligence, visualization and business intelligence.
+      </p>
     </div>
-
 
     <div class="stack">
 
-      <span>Python</span>
-      <span>SQL</span>
-      <span>pandas</span>
-      <span>NumPy</span>
-      <span>scikit-learn</span>
-      <span>XGBoost</span>
-      <span>statsmodels</span>
-      <span>PyTorch</span>
-      <span>TensorFlow</span>
-      <span>NLTK</span>
-      <span>Streamlit</span>
-      <span>Docker</span>
-      <span>MLflow</span>
-      <span>PostgreSQL</span>
-      <span>MongoDB</span>
-      <span>Git</span>
-      <span>GitHub Actions</span>
+      <span class="tag">Python</span>
+      <span class="tag">SQL</span>
+      <span class="tag">Pandas</span>
+      <span class="tag">NumPy</span>
+      <span class="tag">Scikit-Learn</span>
+      <span class="tag">Machine Learning</span>
+      <span class="tag">Artificial Intelligence</span>
+      <span class="tag">Power BI</span>
+      <span class="tag">Data Visualization</span>
+      <span class="tag">Statistics</span>
+      <span class="tag">Business Analytics</span>
+      <span class="tag">Data Strategy</span>
 
     </div>
 
   </div>
-
 </section>
 
-
-<!-- =========================
-     ROADMAP
-========================= -->
-
-<section>
-
+<section id="roadmap">
   <div class="container">
 
     <div class="section-head">
-
-      <div class="kicker">
-        06 / Roadmap
-      </div>
-
-      <h2>
-        What’s next.
-      </h2>
-
+      <div class="kicker">06 — Roadmap</div>
+      <h2>Building toward<br>intelligent organizations.</h2>
     </div>
-
 
     <div class="roadmap">
 
-
       <div class="road">
-
-        <div class="road-status">
-          DONE
-        </div>
-
-        <div>
-
-          <strong>
-            Churn · Sales Forecasting · Fraud · NLP
-          </strong>
-
-          <br>
-
-          <span>
-            Core portfolio projects
-          </span>
-
-        </div>
-
+        <div class="road-status">Phase 01</div>
+        <h3>Data Foundation</h3>
+        <p>
+          Establish reliable data structures,
+          analytical processes and reporting foundations.
+        </p>
       </div>
 
-
       <div class="road">
-
-        <div class="road-status">
-          BUILDING
-        </div>
-
-        <div>
-
-          <strong>
-            Recommendation System · Loan Default · Demand Forecasting
-          </strong>
-
-          <br>
-
-          <span>
-            Expanding applied ML portfolio
-          </span>
-
-        </div>
-
+        <div class="road-status">Phase 02</div>
+        <h3>Advanced Analytics</h3>
+        <p>
+          Introduce predictive analytics,
+          machine learning and deeper insights.
+        </p>
       </div>
 
+      <div class="road">
+        <div class="road-status">Phase 03</div>
+        <h3>AI Integration</h3>
+        <p>
+          Connect artificial intelligence with
+          workflows, decision systems and automation.
+        </p>
+      </div>
 
       <div class="road">
-
-        <div class="road-status">
-          NEXT
-        </div>
-
-        <div>
-
-          <strong>
-            RAG Application · MLOps Pipeline · Real-Time Dashboard
-          </strong>
-
-          <br>
-
-          <span>
-            Production-focused systems
-          </span>
-
-        </div>
-
+        <div class="road-status">Phase 04</div>
+        <h3>Decision Intelligence</h3>
+        <p>
+          Build integrated analytical systems
+          that support strategic organizational decisions.
+        </p>
       </div>
 
     </div>
 
   </div>
-
 </section>
 
-
-<!-- =========================
-     CONTACT
-========================= -->
-
-<section class="contact" id="contact">
-
+<section id="contact">
   <div class="container">
 
-    <div class="kicker">
-      07 / Collaboration
+    <div class="section-head">
+      <div class="kicker">07 — Contact</div>
+      <h2>Let's turn data<br>into direction.</h2>
     </div>
 
-    <h2>
-      Let’s build something useful.
-    </h2>
+    <div class="contact">
 
-    <p>
-      I’m open to remote data science, analytics and machine learning projects where rigorous analysis can translate into meaningful business outcomes.
-    </p>
+      <div>
+        <p class="lead">
+          Whether the challenge involves analytics,
+          artificial intelligence, business intelligence
+          or data strategy, the goal is simple:
+          create solutions that deliver meaningful value.
+        </p>
+      </div>
 
-    <a
-      class="cta"
-      href="https://www.linkedin.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      CONNECT ON LINKEDIN →
-    </a>
+      <div class="cta">
+
+        <h3>Start a conversation.</h3>
+
+        <p>
+          Let's explore how data and AI can create
+          measurable impact.
+        </p>
+
+        <a href="mailto:your-email@example.com">
+          Get in touch →
+        </a>
+
+      </div>
+
+    </div>
 
   </div>
-
 </section>
 
 </main>
 
-
-<!-- =========================
-     FOOTER
-========================= -->
-
 <footer>
-
   <div class="container footer-inner">
 
-    <span>
-      © 2026 Nur A Alam
-    </span>
+    <div>
+      © 2026 Nur A Alam. All rights reserved.
+    </div>
 
-    <span>
-      Data Science · Machine Learning · Business Analytics
-    </span>
+    <div>
+      Data Science • AI • Business Analytics
+    </div>
 
   </div>
-
 </footer>
 
 </body>
 </html>
+```
